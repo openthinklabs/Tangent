@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Usage: call this script from the tangent directory to rerank
+# the last retrieval results, optionally from a passed file.
+#
+# N.B. Currently the most complex reranking function and a window
+#      size of 4 are used.
+
+RERANK_FUNCTION=4
+WINDOW_SIZE=4
+RERANK_DIR="results-db-index"
+INITIAL_OUTPUT="results-db-index.tsv"
+
+if [ $# -gt 0 ]
+then
+	INITIAL_OUTPUT="$1"
+	RERANK_DIR=`basename $1 .tsv`
+fi
+
+echo "Reranking..."
+
+python3 rerank_results.py tangent.cntl $INITIAL_OUTPUT $WINDOW_SIZE $RERANK_FUNCTION \
+	$RERANK_DIR/reranked_results.tsv $RERANK_DIR
+
+echo "done."

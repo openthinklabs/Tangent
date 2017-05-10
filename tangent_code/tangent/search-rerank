@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Usage: call this script from the tangent directory to run a search
+# using the default databse directory, or optionally a different
+# directory.
+# 
+# The script will then run re-ranking on the initial results.
+#
+# N.B. Currently the most complex reranking function and a window
+#      size of 4 are used.
+
+RERANK_FUNCTION=4
+WINDOW_SIZE=4
+RERANK_DIR="results-db-index"
+INITIAL_OUTPUT="results-db-index.tsv"
+
+echo "Retrieving expressions...."
+if [ $# -lt 1 ]
+then
+	echo "S" | cat db-index/* - | ./mathindex.exe > $INITIAL_OUTPUT
+else
+	if [ $# -gt 0 ]
+	then
+		RERANK_DIR="results-$1"
+		INITIAL_OUTPUT="results-$1.tsv"
+		echo "S" | cat $1/* - | ./mathindex.exe > $INITIAL_OUTPUT
+	fi
+fi
+
+echo "done."
+echo ""
+
+echo "Reranking..."
+
+python3 rerank_results.py tangent.cntl $INITIAL_OUTPUT $WINDOW_SIZE $RERANK_FUNCTION \
+	$RERANK_DIR/reranked_results.tsv $RERANK_DIR
+
+echo "done."

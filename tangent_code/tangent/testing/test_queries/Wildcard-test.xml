@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://ntcir-math.nii.ac.jp/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+	<topic>
+		<num>Wildcard-test-1</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0^2+1" display="inline">
+		<m:mrow>
+		  <m:msup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mn>2</m:mn>
+		  </m:msup>
+		  <m:mo>+</m:mo>
+		  <m:mn>1</m:mn>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-2</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="X+?x0=?x1" display="inline">
+		<m:mrow>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>=</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-3</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0^2+?x0+?x1" display="inline">
+		<m:mrow>
+			<m:msup>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-4</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="F(?x0)=\frac{?x1}{?x2}" display="inline">
+		<m:mrow>
+			<m:mi>F</m:mi>
+            <m:mrow>
+                <m:mo>(</m:mo>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+                <m:mo>)</m:mo>
+            </m:mrow>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				</m:mrow>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-5</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="F(?x0)=\frac{?x1}{?x2}" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>=</m:mo>
+            <m:mrow>
+                <m:mo>{</m:mo>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+                <m:mo>}</m:mo>
+            </m:mrow>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-6</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="A=[?x0][?x1]" display="inline">
+		<m:mrow>
+		    <m:mi>A</m:mi>
+		    <m:mo>=</m:mo>
+		    <m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+							</m:mtd>
+						</m:mtr>			       
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+							</m:mtd>
+						</m:mtr>			       
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+		 </m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-7</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="∑^?x0_?x1 ?x2 = ∑^?x0_?x1 ?x3" display="inline">
+		<m:mrow>
+			<m:msubsup>
+				<m:mo largeop="true" symmetric="true" >∑</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			</m:msubsup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+			<m:mo>=</m:mo>
+			<m:msubsup>
+				<m:mo largeop="true" symmetric="true" >∑</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			</m:msubsup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-8</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0+?x1+?x2" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-9</num>
+		<query>
+		  <formula id="f1.0">
+	
+	<m:math alttext="?x0+\fract{?x1}{?x2}?x3-?x4" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>+</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				</m:mrow>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+				</m:mrow>
+			</m:mfrac>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+			<m:mo>-</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x4"/>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-10</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="F(x)=?x0-?x2^2+1" display="inline">
+		<m:mrow>
+			<m:mi>F</m:mi>
+            <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>)</m:mo>
+            </m:mrow>
+			<m:mo>=</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>-</m:mo>
+			<m:msup>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:mn>1</m:mn>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-11</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0=\frac{?x1+\sqrt(?x2)}{2 ?x3}" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+					<m:mo>+</m:mo>
+					<msqrt>
+						<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+					</msqrt>
+				</m:mrow>
+				<m:mrow>
+					<m:mn>2</m:mn>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-12</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0 (x,y)= ?x1^2 + b ?x2 ^ 2" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<m:mrow>
+				  <m:mi>x</m:mi>
+				  <m:mo>,</m:mo>
+				  <m:mi>y</m:mi>
+				</m:mrow>
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:mi>b</m:mi>
+			<m:msup>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+				<m:mn>2</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-13</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="?x0(x)= a ?x1^?x2" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<m:mi>x</m:mi>				  
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:mi>a</m:mi>
+			<m:msup>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+				</m:mrow>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-14</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="S(t)=\frac{1}{?x0}" display="inline">
+		<m:mrow>
+			<m:mi>S</m:mi>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<m:mi>t</m:mi>				  
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mn>1</m:mn>
+				</m:mrow>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-15</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="1+x+\frac{x^2}{2}+?x0+O(?x1)" display="inline">
+		<m:mrow>
+			<m:mn>1</m:mn>
+			<m:mo>+</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mn>2</m:mn>
+					</m:msup>					
+				</m:mrow>
+				<m:mrow>
+					<m:mn>2</m:mn>
+				</m:mrow>
+			</m:mfrac>
+			<m:mo>+</m:mo>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>+</m:mo>
+			<m:mi>O</m:mi>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>				  
+				<m:mo>)</m:mo>
+			</m:mrow>
+		</m:mrow>
+	</m:math>	
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Wildcard-test-16</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="sin(?x0)=∑^?x1_?x0 ?X2" display="inline">
+		<m:mrow>
+			<m:mi>sin</m:mi>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:msubsup>
+				<m:mo largeop="true" symmetric="true" >∑</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+			</m:msubsup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	
+	<topic>
+		<num>Wildcard-test-17</num>
+		<query>
+		  <formula id="f1.0">
+	
+	<m:math alttext="F(?x1,?x2)=\frac{?x3}{?x4}" display="inline">
+		<m:mrow>
+			<m:mi>F</m:mi>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+				<m:mo>,</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+				</m:mrow>
+				<m:mrow>
+					<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+	
+	<topic>
+		<num>Wildcard-test-18</num>
+		<query>
+		  <formula id="f1.0">
+		  
+	<m:math alttext="?x0=[[?x1 ?x2],[?x3 ?x4]][?x5]" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>=</m:mo>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+							</m:mtd>
+						</m:mtr>			       
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x4"/>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x5"/>
+							</m:mtd>
+						</m:mtr>			       
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+		</m:mrow>
+	</m:math>
+		  </formula>
+		</query>
+	</topic>
+</topics>

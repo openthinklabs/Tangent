@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://www.w3.org/1998/Math/MathML">
+  <topic>
+    <num>NTCIR12-MathWiki-1</num>
+    <query>
+      <keyword id="w.0"> what </keyword>
+      <keyword id="w.1"> symbol </keyword>
+      <keyword id="w.2"> is</keyword>
+      <formula id="f.0">
+         <m:math>
+          <m:semantics>
+            <m:mi>ζ</m:mi>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:ci>ζ</m:ci>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\zeta</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-2</num>
+    <query>
+      <keyword id="w.0"> define</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mo>⇔</m:mo>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:csymbol cd="latexml">iff</m:csymbol>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\iff</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> in</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>⇔</m:mo>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:csymbol cd="latexml">iff</m:csymbol>
+                <m:ci>A</m:ci>
+                <m:ci>B</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">A\iff B</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-3</num>
+    <query>
+      <keyword id="w.0"> definition</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo>⊕</m:mo>
+              <m:mi>b</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:csymbol cd="latexml">direct-sum</m:csymbol>
+                <m:ci>a</m:ci>
+                <m:ci>b</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">a\oplus b</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-4</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mo>|</m:mo>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mi>a</m:mi>
+                  </m:mtd>
+                  <m:mtd columnalign="center">
+                    <m:mi>b</m:mi>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mi>c</m:mi>
+                  </m:mtd>
+                  <m:mtd columnalign="center">
+                    <m:mi>d</m:mi>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mo>|</m:mo>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:abs/>
+                <m:matrix>
+                  <m:matrixrow>
+                    <m:ci>a</m:ci>
+                    <m:ci>b</m:ci>
+                  </m:matrixrow>
+                  <m:matrixrow>
+                    <m:ci>c</m:ci>
+                    <m:ci>d</m:ci>
+                  </m:matrixrow>
+                </m:matrix>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\left|\begin{array}[]{c c}a&amp;b\\
+c&amp;d\end{array}\right|</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> define</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-5</num>
+    <query>
+      <keyword id="w.0"> define</keyword>
+      <keyword id="w.1"> notation</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mmultiscripts>
+                <m:mi>F</m:mi>
+                <m:mn>1</m:mn>
+                <m:none/>
+                <m:mprescripts/>
+                <m:mn>2</m:mn>
+                <m:none/>
+              </m:mmultiscripts>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo>,</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>;</m:mo>
+                <m:mi>c</m:mi>
+                <m:mo>;</m:mo>
+                <m:mi>z</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:times/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                    <m:ci>F</m:ci>
+                    <m:cn type="integer">1</m:cn>
+                  </m:apply>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+                <m:vector>
+                  <m:ci>a</m:ci>
+                  <m:ci>b</m:ci>
+                  <m:ci>c</m:ci>
+                  <m:ci>z</m:ci>
+                </m:vector>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">{}_{2}F_{1}(a,b;c;z)</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-6</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mi>b</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mi>b</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi mathvariant="normal">⋯</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:plus/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:ci>a</m:ci>
+                  <m:cn type="integer">0</m:cn>
+                </m:apply>
+                <m:apply>
+                  <m:times/>
+                  <m:apply>
+                    <m:divide/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>b</m:ci>
+                      <m:cn type="integer">1</m:cn>
+                    </m:apply>
+                    <m:apply>
+                      <m:csymbol cd="latexml">limit-from</m:csymbol>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>a</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                      <m:plus/>
+                    </m:apply>
+                  </m:apply>
+                  <m:apply>
+                    <m:divide/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>b</m:ci>
+                      <m:cn type="integer">2</m:cn>
+                    </m:apply>
+                    <m:apply>
+                      <m:csymbol cd="latexml">limit-from</m:csymbol>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>a</m:ci>
+                        <m:cn type="integer">2</m:cn>
+                      </m:apply>
+                      <m:plus/>
+                    </m:apply>
+                  </m:apply>
+                  <m:ci>normal-⋯</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">a_{0}+\frac{b_{1}}{a_{1}+}\frac{b_{2}}{a_{2}+}\cdots</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> define </keyword>
+      <keyword id="w.1"> pattern</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-7</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mi>Y</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:qvar>*1*</m:qvar>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:times/>
+                <m:ci>P</m:ci>
+                <m:ci>Y</m:ci>
+                <m:qvar>*1*</m:qvar>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">PY(\qvar{*1*})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-8</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mi>c</m:mi>
+                <m:qvar>*1*</m:qvar>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:ci>n</m:ci>
+                <m:apply>
+                  <m:divide/>
+                  <m:ci>c</m:ci>
+                  <m:qvar>*1*</m:qvar>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">n=\frac{c}{\qvar{*1*}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> light </keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-9</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:qvar>*1*</m:qvar>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi>r</m:mi>
+                <m:msub>
+                  <m:qvar>*1*</m:qvar>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:qvar>*1*</m:qvar>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:qvar>*1*</m:qvar>
+                  <m:apply>
+                    <m:plus/>
+                    <m:ci>n</m:ci>
+                    <m:cn type="integer">1</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>r</m:ci>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                    <m:qvar>*1*</m:qvar>
+                    <m:ci>n</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:minus/>
+                    <m:cn type="integer">1</m:cn>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:qvar>*1*</m:qvar>
+                      <m:ci>n</m:ci>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\qvar{*1*}_{n+1}=r\qvar{*1*}_{n}(1-\qvar{*1*}_{n})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> recurrence</keyword>
+      <keyword id="w.1"> relation</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-10</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mi>e</m:mi>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>g</m:ci>
+                  <m:ci>x</m:ci>
+                </m:apply>
+                <m:apply>
+                  <m:divide/>
+                  <m:cn type="integer">1</m:cn>
+                  <m:apply>
+                    <m:plus/>
+                    <m:cn type="integer">1</m:cn>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>e</m:ci>
+                      <m:apply>
+                        <m:minus/>
+                        <m:ci>x</m:ci>
+                      </m:apply>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">g(x)=\frac{1}{1+e^{-x}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-11</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>F</m:mi>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:ci>F</m:ci>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>m</m:ci>
+                  <m:ci>a</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">F=ma</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-12</num>
+    <query>
+      <keyword id="w.0"> Legendre</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mstyle displaystyle="true">
+                <m:mfrac>
+                  <m:mi>a</m:mi>
+                  <m:mi>p</m:mi>
+                </m:mfrac>
+              </m:mstyle>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:divide/>
+                <m:ci>a</m:ci>
+                <m:ci>p</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\left(\dfrac{a}{p}\right)</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-13</num>
+    <query>
+      <keyword id="w.0"> find</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:qvar>*1*</m:qvar>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:qvar>*2*</m:qvar>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>a</m:ci>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:cn type="integer">2</m:cn>
+                    </m:apply>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>b</m:ci>
+                    <m:ci>x</m:ci>
+                  </m:apply>
+                  <m:ci>c</m:ci>
+                </m:apply>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:qvar>*1*</m:qvar>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                  <m:qvar>*2*</m:qvar>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">ax^{2}+bx+c=(\qvar{*1*})^{2}+\qvar{*2*}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-14</num>
+    <query>
+      <keyword id="w.0"> convert</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>l</m:mi>
+              <m:mi>o</m:mi>
+              <m:msub>
+                <m:mi>g</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:qvar>*1*</m:qvar>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:times/>
+                <m:ci>l</m:ci>
+                <m:ci>o</m:ci>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:ci>g</m:ci>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+                <m:qvar>*1*</m:qvar>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">log_{2}(\qvar{*1*})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> to</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>ln</m:mi>
+              <m:mo>⁡</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:qvar>*1*</m:qvar>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:ln/>
+                <m:qvar>*1*</m:qvar>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\ln(\qvar{*1*})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-15</num>
+    <query>
+      <keyword id="w.0"> compute</keyword>
+      <keyword id="w.1"> value</keyword>
+      <keyword id="w.2"> for</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mstyle scriptlevel="+1">
+                <m:mtable columnspacing="0.4em" rowspacing="0.2ex">
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mi>n</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd>
+                      <m:mi>k</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mstyle>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:csymbol cd="latexml">binomial</m:csymbol>
+                <m:ci>n</m:ci>
+                <m:ci>k</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">n\choose k</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-16</num>
+    <query>
+      <keyword id="w.0"> solve</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mi>x</m:mi>
+                  <m:mi>n</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mo>-</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:minus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:cn type="integer">2</m:cn>
+                    </m:apply>
+                    <m:ci>n</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:apply>
+                        <m:minus/>
+                        <m:ci>n</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                    </m:apply>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:apply>
+                        <m:plus/>
+                        <m:ci>n</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+                <m:ci>c</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">x^{2}_{n}-x_{n-1}x_{n+1}=c</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> for</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                <m:ci>x</m:ci>
+                <m:ci>n</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">x_{n}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-17</num>
+    <query>
+      <keyword id="w.0"> factor</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mrow>
+                  <m:mi>D</m:mi>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>D</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:msup>
+                    <m:mi>z</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>-</m:mo>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>D</m:mi>
+                <m:mi>x</m:mi>
+                <m:mi>y</m:mi>
+                <m:mi>z</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:minus/>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:ci>x</m:ci>
+                    <m:cn type="integer">3</m:cn>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>D</m:ci>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>y</m:ci>
+                      <m:cn type="integer">3</m:cn>
+                    </m:apply>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>D</m:ci>
+                      <m:cn type="integer">2</m:cn>
+                    </m:apply>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>z</m:ci>
+                      <m:cn type="integer">3</m:cn>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:times/>
+                  <m:cn type="integer">3</m:cn>
+                  <m:ci>D</m:ci>
+                  <m:ci>x</m:ci>
+                  <m:ci>y</m:ci>
+                  <m:ci>z</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">x^{3}+Dy^{3}+D^{2}z^{3}-3Dxyz</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> multiple</keyword>
+      <keyword id="w.2"> variables</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-18</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:munder>
+                <m:mo movablelimits="false">lim</m:mo>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>→</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:munder>
+              <m:mo>⁡</m:mo>
+              <m:mstyle displaystyle="true">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mi>cos</m:mi>
+                      <m:mo>⁡</m:mo>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mi>cos</m:mi>
+                      <m:mo>⁡</m:mo>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mfrac>
+              </m:mstyle>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:limit/>
+                  <m:apply>
+                    <m:ci>normal-→</m:ci>
+                    <m:ci>x</m:ci>
+                    <m:cn type="integer">0</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:divide/>
+                  <m:apply>
+                    <m:minus/>
+                    <m:cn type="integer">2</m:cn>
+                    <m:apply>
+                      <m:cos/>
+                      <m:apply>
+                        <m:times/>
+                        <m:cn type="integer">3</m:cn>
+                        <m:ci>x</m:ci>
+                      </m:apply>
+                    </m:apply>
+                    <m:apply>
+                      <m:cos/>
+                      <m:apply>
+                        <m:times/>
+                        <m:cn type="integer">4</m:cn>
+                        <m:ci>x</m:ci>
+                      </m:apply>
+                    </m:apply>
+                  </m:apply>
+                  <m:ci>x</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\displaystyle\lim_{x\rightarrow 0}\frac{2-\cos(3x)-\cos(4x)}{x}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> solve</keyword>
+      <keyword id="w.1"> limit</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-19</num>
+    <query>
+      <keyword id="w.0"> sequence</keyword>
+      <keyword id="w.1"> name</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>,</m:mo>
+              <m:mi mathvariant="normal">…</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:list>
+                <m:cn type="integer">1</m:cn>
+                <m:cn type="integer">2</m:cn>
+                <m:cn type="integer">2</m:cn>
+                <m:cn type="integer">3</m:cn>
+                <m:cn type="integer">3</m:cn>
+                <m:cn type="integer">4</m:cn>
+                <m:cn type="integer">4</m:cn>
+                <m:cn type="integer">4</m:cn>
+                <m:cn type="integer">5</m:cn>
+                <m:cn type="integer">5</m:cn>
+                <m:ci>normal-…</m:ci>
+              </m:list>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">1,2,2,3,3,4,4,4,5,5,\ldots</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-20</num>
+    <query>
+      <keyword id="w.0"> why</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:qvar>*1*</m:qvar>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:qvar>*1*</m:qvar>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:plus/>
+                <m:apply>
+                  <m:minus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:qvar>*1*</m:qvar>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:cn type="integer">7</m:cn>
+                    <m:qvar>*1*</m:qvar>
+                  </m:apply>
+                </m:apply>
+                <m:cn type="integer">2</m:cn>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\qvar{*1*}^{2}-7\qvar{*1*}+2</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> polynomial</keyword>
+      <keyword id="w.2"> but</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mfrac>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:qvar>*1*</m:qvar>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:qvar>*1*</m:qvar>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:qvar>*1*</m:qvar>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:mfrac>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:divide/>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:minus/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:qvar>*1*</m:qvar>
+                      <m:cn type="integer">2</m:cn>
+                    </m:apply>
+                    <m:apply>
+                      <m:times/>
+                      <m:cn type="integer">7</m:cn>
+                      <m:qvar>*1*</m:qvar>
+                    </m:apply>
+                  </m:apply>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+                <m:apply>
+                  <m:plus/>
+                  <m:qvar>*1*</m:qvar>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\frac{\qvar{*1*}^{2}-7\qvar{*1*}+2}{\qvar{*1*}+2}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.3"> not </keyword>
+      <keyword id="w.4"> polynomial</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-21</num>
+    <query>
+      <keyword id="w.0"> difference</keyword>
+      <keyword id="w.1"> between</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mtext>Log</m:mtext>
+              <m:qvar>*1*</m:qvar>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:times/>
+                <m:mtext>Log</m:mtext>
+                <m:qvar>*1*</m:qvar>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\textrm{Log}~{}\qvar{*1*}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.2"> and</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>log</m:mi>
+              <m:mo>⁡</m:mo>
+              <m:qvar>*1*</m:qvar>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:log/>
+                <m:qvar>*1*</m:qvar>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\log\qvar{*1*}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-22</num>
+    <query>
+      <keyword id="w.0"> explanation</keyword>
+      <keyword id="w.1"> intuition</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo>∇</m:mo>
+                <m:mo>×</m:mo>
+                <m:mi>E</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>δ</m:mi>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>δ</m:mi>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>normal-∇</m:ci>
+                  <m:ci>E</m:ci>
+                </m:apply>
+                <m:apply>
+                  <m:minus/>
+                  <m:apply>
+                    <m:divide/>
+                    <m:apply>
+                      <m:times/>
+                      <m:ci>δ</m:ci>
+                      <m:ci>B</m:ci>
+                    </m:apply>
+                    <m:apply>
+                      <m:times/>
+                      <m:ci>δ</m:ci>
+                      <m:ci>t</m:ci>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\nabla\times E=-\frac{\delta B}{\delta t}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-23</num>
+    <query>
+      <keyword id="w.0"> is</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:mi>P</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:ci>P</m:ci>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>N</m:ci>
+                  <m:ci>P</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">P=NP</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> possible</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-24</num>
+    <query>
+      <keyword id="w.0"> what</keyword>
+      <keyword id="w.1"> is</keyword>
+      <keyword id="w.2"> gamma</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msubsup>
+                <m:mo largeop="true" symmetric="true">∫</m:mo>
+                <m:mn>0</m:mn>
+                <m:qvar>*1*</m:qvar>
+              </m:msubsup>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>e</m:mi>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>d</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                    <m:int/>
+                    <m:cn type="integer">0</m:cn>
+                  </m:apply>
+                  <m:qvar>*1*</m:qvar>
+                </m:apply>
+                <m:apply>
+                  <m:times/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:ci>e</m:ci>
+                    <m:apply>
+                      <m:minus/>
+                      <m:ci>x</m:ci>
+                    </m:apply>
+                  </m:apply>
+                  <m:ci>d</m:ci>
+                  <m:ci>x</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\int_{0}^{\qvar{*1*}}e^{-x}dx</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-25</num>
+    <query>
+      <keyword id="w.0"> proof</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>∘</m:mo>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>′</m:mo>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>f</m:mi>
+                      <m:mo>′</m:mo>
+                    </m:msup>
+                    <m:mo>∘</m:mo>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>⋅</m:mo>
+                <m:msup>
+                  <m:mi>g</m:mi>
+                  <m:mo>′</m:mo>
+                </m:msup>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                  <m:apply>
+                    <m:compose/>
+                    <m:ci>f</m:ci>
+                    <m:ci>g</m:ci>
+                  </m:apply>
+                  <m:ci>normal-′</m:ci>
+                </m:apply>
+                <m:apply>
+                  <m:ci>normal-⋅</m:ci>
+                  <m:apply>
+                    <m:compose/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                      <m:ci>f</m:ci>
+                      <m:ci>normal-′</m:ci>
+                    </m:apply>
+                    <m:ci>g</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:ci>g</m:ci>
+                    <m:ci>normal-′</m:ci>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">(f\circ g)^{\prime}=(f^{\prime}\circ g)\cdot g^{\prime}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-26</num>
+    <query>
+      <keyword id="w.0"> proof</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>z</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:ci>x</m:ci>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:ci>y</m:ci>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                  <m:ci>z</m:ci>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">x^{2}+y^{2}=z^{2}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-27</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:qvar>*1*</m:qvar>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:qvar>*2*</m:qvar>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:qvar>*3*</m:qvar>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:qvar>*1*</m:qvar>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:qvar>*2*</m:qvar>
+                    <m:cn type="integer">2</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                  <m:qvar>*3*</m:qvar>
+                  <m:cn type="integer">2</m:cn>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\qvar{*1*}^{2}+\qvar{*2*}^{2}=\qvar{*3*}^{2}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0"> uses</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-28</num>
+    <query>
+      <keyword id="w.0"> example</keyword>
+      <keyword id="w.1"> uses</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mi mathvariant="normal">⋯</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>≤</m:mo>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                  <m:mi>f</m:mi>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:mi mathvariant="normal">⋯</m:mi>
+                <m:mo>+</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:msub>
+                  <m:mi>f</m:mi>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:leq/>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>f</m:ci>
+                  <m:apply>
+                    <m:plus/>
+                    <m:apply>
+                      <m:times/>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>a</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>x</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                    </m:apply>
+                    <m:ci>normal-⋯</m:ci>
+                    <m:apply>
+                      <m:times/>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>a</m:ci>
+                        <m:ci>n</m:ci>
+                      </m:apply>
+                      <m:apply>
+                        <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                        <m:ci>x</m:ci>
+                        <m:ci>n</m:ci>
+                      </m:apply>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:plus/>
+                  <m:apply>
+                    <m:times/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>a</m:ci>
+                      <m:cn type="integer">1</m:cn>
+                    </m:apply>
+                    <m:ci>f</m:ci>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:cn type="integer">1</m:cn>
+                    </m:apply>
+                  </m:apply>
+                  <m:ci>normal-⋯</m:ci>
+                  <m:apply>
+                    <m:times/>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>a</m:ci>
+                      <m:ci>n</m:ci>
+                    </m:apply>
+                    <m:ci>f</m:ci>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:ci>x</m:ci>
+                      <m:ci>n</m:ci>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">f\left(a_{1}x_{1}+\cdots+a_{n}x_{n}\right)\leq a_{1}f(x_{1})+\cdots+a_{n}f(x_{%
+n})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.2"> where</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo>∈</m:mo>
+              <m:mi>ℝ</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:in/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:ci>x</m:ci>
+                  <m:ci>i</m:ci>
+                </m:apply>
+                <m:ci>ℝ</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">x_{i}\in\mathbb{R}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <formula id="f.2">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>i</m:mi>
+              </m:msub>
+              <m:mo>≥</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:geq/>
+                <m:apply>
+                  <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                  <m:ci>a</m:ci>
+                  <m:ci>i</m:ci>
+                </m:apply>
+                <m:cn type="integer">0</m:cn>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">a_{i}\geq 0</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <formula id="f.3">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mo largeop="true" symmetric="true">∑</m:mo>
+                  <m:mrow>
+                    <m:mi>i</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msubsup>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>i</m:mi>
+                </m:msub>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:sum/>
+                      <m:apply>
+                        <m:eq/>
+                        <m:ci>i</m:ci>
+                        <m:cn type="integer">1</m:cn>
+                      </m:apply>
+                    </m:apply>
+                    <m:ci>n</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                    <m:ci>a</m:ci>
+                    <m:ci>i</m:ci>
+                  </m:apply>
+                </m:apply>
+                <m:cn type="integer">1</m:cn>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\sum_{i=1}^{n}a_{i}=1</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-29</num>
+    <query>
+      <keyword id="w.0"> applications</keyword>
+      <keyword id="w.1"> growth</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                  <m:mi>P</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mrow>
+                <m:mi>r</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mi>P</m:mi>
+                      <m:mi>K</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>P</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:eq/>
+                <m:apply>
+                  <m:divide/>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>d</m:ci>
+                    <m:ci>P</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>d</m:ci>
+                    <m:ci>t</m:ci>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:times/>
+                  <m:ci>r</m:ci>
+                  <m:apply>
+                    <m:minus/>
+                    <m:cn type="integer">1</m:cn>
+                    <m:apply>
+                      <m:divide/>
+                      <m:ci>P</m:ci>
+                      <m:ci>K</m:ci>
+                    </m:apply>
+                  </m:apply>
+                  <m:ci>P</m:ci>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">\frac{dP}{dt}=r\left(1-\frac{P}{K}\right)P</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.2"> epidemiology</keyword>
+      <keyword id="w.3"> biology</keyword>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR12-MathWiki-30</num>
+    <query>
+      <keyword id="w.0"> applications</keyword>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo>⋆</m:mo>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:ci>normal-⋆</m:ci>
+                <m:ci>f</m:ci>
+                <m:ci>g</m:ci>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">f\star g</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.1"> where</keyword>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>⋆</m:mo>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>[</m:mo>
+                  <m:qvar>*1*</m:qvar>
+                  <m:mo>]</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>:=</m:mo>
+              <m:mrow>
+                <m:msubsup>
+                  <m:mo largeop="true" symmetric="true">∑</m:mo>
+                  <m:mrow>
+                    <m:qvar>*2*</m:qvar>
+                    <m:mo>=</m:mo>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mi mathvariant="normal">∞</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mi mathvariant="normal">∞</m:mi>
+                </m:msubsup>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:qvar>*2*</m:qvar>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mrow>
+                      <m:qvar>*1*</m:qvar>
+                      <m:mo>-</m:mo>
+                      <m:qvar>*2*</m:qvar>
+                    </m:mrow>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation-xml encoding="MathML-Content">
+              <m:apply>
+                <m:csymbol cd="latexml">assign</m:csymbol>
+                <m:apply>
+                  <m:times/>
+                  <m:apply>
+                    <m:ci>normal-⋆</m:ci>
+                    <m:ci>f</m:ci>
+                    <m:ci>g</m:ci>
+                  </m:apply>
+                  <m:apply>
+                    <m:csymbol cd="latexml">delimited-[]</m:csymbol>
+                    <m:qvar>*1*</m:qvar>
+                  </m:apply>
+                </m:apply>
+                <m:apply>
+                  <m:apply>
+                    <m:csymbol cd="ambiguous">superscript</m:csymbol>
+                    <m:apply>
+                      <m:csymbol cd="ambiguous">subscript</m:csymbol>
+                      <m:sum/>
+                      <m:apply>
+                        <m:eq/>
+                        <m:qvar>*2*</m:qvar>
+                        <m:apply>
+                          <m:minus/>
+                          <m:infinity/>
+                        </m:apply>
+                      </m:apply>
+                    </m:apply>
+                    <m:infinity/>
+                  </m:apply>
+                  <m:apply>
+                    <m:times/>
+                    <m:ci>f</m:ci>
+                    <m:qvar>*2*</m:qvar>
+                    <m:ci>g</m:ci>
+                    <m:apply>
+                      <m:minus/>
+                      <m:qvar>*1*</m:qvar>
+                      <m:qvar>*2*</m:qvar>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex">(f\star g)[\qvar{*1*}]:=\sum_{\qvar{*2*}=-\infty}^{\infty}f(\qvar{*2*})\,g(%
+\qvar{*1*}-\qvar{*2*})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+</topics>

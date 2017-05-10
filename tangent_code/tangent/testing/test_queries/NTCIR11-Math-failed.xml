@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://ntcir-math.nii.ac.jp/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <topic>
+    <num>NTCIR11-Math-71</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m141.1a" xref="m141.1.pmml">
+            <m:apply xml:id="m141.1.3" xref="m141.1.3.pmml">
+              <m:csymbol cd="ambiguous" xml:id="m141.1.3.1">subscript</m:csymbol>
+              <m:ci xml:id="m141.1.1" xref="m141.1.1.pmml">h</m:ci>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m141.1.pmml" xref="m141.1">
+              <m:msub xml:id="m141.1.3.pmml" xref="m141.1.3">
+                <m:mi xml:id="m141.1.1.pmml" xref="m141.1.1">h</m:mi>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+              </m:msub>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m141.1b" xref="m141.1.pmml">h_{{\qvar{x0}}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR11-Math-84</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m167.1a" xref="m167.1.pmml">
+            <m:apply xml:id="m167.1.7" xref="m167.1.7.pmml">
+              <m:eq xml:id="m167.1.2" xref="m167.1.2.pmml"/>
+              <m:ci xml:id="m167.1.1" xref="m167.1.1.pmml">F</m:ci>
+              <m:apply xml:id="m167.1.7.1" xref="m167.1.7.1.pmml">
+                <m:set xml:id="m167.1.7.1.1"/>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+              </m:apply>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m167.1.pmml" xref="m167.1">
+              <m:mrow xml:id="m167.1.7.pmml" xref="m167.1.7">
+                <m:mrow xml:id="m167.1.7a.pmml" xref="m167.1.7">
+                  <m:mi xml:id="m167.1.1.pmml" xref="m167.1.1">F</m:mi>
+                  <m:mo xml:id="m167.1.2.pmml" xref="m167.1.2">=</m:mo>
+                  <m:mrow xml:id="m167.1.7.1.pmml" xref="m167.1.7.1">
+                    <m:mo xml:id="m167.1.7.1a.pmml" xref="m167.1.7.1">{</m:mo>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+                    <m:mo xml:id="m167.1.7.1b.pmml" xref="m167.1.7.1">}</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m167.1.7b.pmml" xref="m167.1.7">.</m:mo>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m167.1b" xref="m167.1.pmml">F=\{\qvar{x0}\}.</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR11-Math-99</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m197.1a" xref="m197.1.pmml">
+            <m:apply xml:id="m197.1.2" xref="m197.1.2.pmml">
+              <m:divide xml:id="m197.1.2.1"/>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m197.1.pmml" xref="m197.1">
+              <m:mpadded lspace="2.8pt" width="+5.6pt" xml:id="m197.1.2.pmml" xref="m197.1.2">
+                <m:mfrac xml:id="m197.1.2a.pmml" xref="m197.1.2">
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+                </m:mfrac>
+              </m:mpadded>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m197.1b" xref="m197.1.pmml">\;{\frac{\qvar{x0}}{\qvar{x1}}}\;</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+</topics>

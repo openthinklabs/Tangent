@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://ntcir-math.nii.ac.jp/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+  <topic>
+    <num>NTCIR11-Math-2</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m3.1a" xref="m3.1.pmml">
+            <m:apply xml:id="m3.1.6" xref="m3.1.6.pmml">
+              <m:interval closure="open" xml:id="m3.1.6.1"/>
+              <m:ci xml:id="m3.1.2" xref="m3.1.2.pmml">X</m:ci>
+              <m:ci xml:id="m3.1.4" xref="m3.1.4.pmml">normal-Σ</m:ci>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m3.1.pmml" xref="m3.1">
+              <m:mrow xml:id="m3.1.6.pmml" xref="m3.1.6">
+                <m:mo xml:id="m3.1.6a.pmml" xref="m3.1.6">(</m:mo>
+                <m:mrow xml:id="m3.1.6b.pmml" xref="m3.1.6">
+                  <m:mi xml:id="m3.1.2.pmml" xref="m3.1.2">X</m:mi>
+                  <m:mo xml:id="m3.1.6c.pmml" xref="m3.1.6">,</m:mo>
+                  <m:mi mathvariant="normal" xml:id="m3.1.4.pmml" xref="m3.1.4">Σ</m:mi>
+                </m:mrow>
+                <m:mo xml:id="m3.1.6d.pmml" xref="m3.1.6">)</m:mo>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m3.1b" xref="m3.1.pmml">(X,\Sigma)</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR11-Math-4a</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m7.1a" xref="m7.1.pmml">
+            <m:apply xml:id="m7.1.8" xref="m7.1.8.pmml">
+              <m:eq xml:id="m7.1.5" xref="m7.1.5.pmml"/>
+              <m:apply xml:id="m7.1.8.1" xref="m7.1.8.1.pmml">
+                <m:times xml:id="m7.1.8.1.1" xref="m7.1.8.1.1.pmml"/>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="B"/>
+                <m:apply xml:id="m7.1.8.1.2" xref="m7.1.8.1.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m7.1.8.1.2.1">subscript</m:csymbol>
+                  <m:ci xml:id="m7.1.2" xref="m7.1.2.pmml">σ</m:ci>
+                  <m:cn type="integer" xml:id="m7.1.3.1" xref="m7.1.3.1.pmml">3</m:cn>
+                </m:apply>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="B"/>
+              </m:apply>
+              <m:apply xml:id="m7.1.8.2" xref="m7.1.8.2.pmml">
+                <m:csymbol cd="ambiguous" xml:id="m7.1.8.2.1">subscript</m:csymbol>
+                <m:ci xml:id="m7.1.6" xref="m7.1.6.pmml">σ</m:ci>
+                <m:cn type="integer" xml:id="m7.1.7.1" xref="m7.1.7.1.pmml">3</m:cn>
+              </m:apply>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m7.1.pmml" xref="m7.1">
+              <m:mrow xml:id="m7.1.8.pmml" xref="m7.1.8">
+                <m:mrow xml:id="m7.1.8.1.pmml" xref="m7.1.8.1">
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="B"/>
+                  <m:mo xml:id="m7.1.8.1.1.pmml" xref="m7.1.8.1.1">⁢</m:mo>
+                  <m:msub xml:id="m7.1.8.1.2.pmml" xref="m7.1.8.1.2">
+                    <m:mi xml:id="m7.1.2.pmml" xref="m7.1.2">σ</m:mi>
+                    <m:mn xml:id="m7.1.3.1.pmml" xref="m7.1.3.1">3</m:mn>
+                  </m:msub>
+                  <m:mo xml:id="m7.1.8.1.1a.pmml" xref="m7.1.8.1.1">⁢</m:mo>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="B"/>
+                </m:mrow>
+                <m:mo xml:id="m7.1.5.pmml" xref="m7.1.5">=</m:mo>
+                <m:msub xml:id="m7.1.8.2.pmml" xref="m7.1.8.2">
+                  <m:mi xml:id="m7.1.6.pmml" xref="m7.1.6">σ</m:mi>
+                  <m:mn xml:id="m7.1.7.1.pmml" xref="m7.1.7.1">3</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m7.1b" xref="m7.1.pmml">?B\sigma_{3}\qvar{B}=\sigma_{3}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>From-Data-1</num>
+    <query>
+      <formula id="f1.0">
+        <m:math alttext="q" display="inline">
+          <m:semantics>
+            <m:mi>q</m:mi>
+            <m:annotation encoding="application/x-tex">q</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>From-Data-2</num>
+    <query>
+      <formula id="f1.0">
+        <m:math alttext="S(k)" display="inline">
+          <m:semantics>
+            <m:mrow>
+              <m:mi>S</m:mi>
+              <m:mo>⁢</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>k</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="application/x-tex">S(k)</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  <topic>
+    <num>NTCIR11-Math-4</num>
+    <query>
+      <formula id="f1.0">
+        <m:math>
+          <m:semantics xml:id="m7.1a" xref="m7.1.pmml">
+            <m:apply xml:id="m7.1.11" xref="m7.1.11.pmml">
+              <m:eq xml:id="m7.1.6" xref="m7.1.6.pmml"/>
+              <m:apply xml:id="m7.1.11.1" xref="m7.1.11.1.pmml">
+                <m:times xml:id="m7.1.11.1.1" xref="m7.1.11.1.1.pmml"/>
+                <m:apply xml:id="m7.1.11.1.2" xref="m7.1.11.1.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m7.1.11.1.2.1">subscript</m:csymbol>
+                  <m:ci xml:id="m7.1.1" xref="m7.1.1.pmml">f</m:ci>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+                </m:apply>
+                <m:ci xml:id="m7.1.4" xref="m7.1.4.pmml">z</m:ci>
+              </m:apply>
+              <m:apply xml:id="m7.1.11.2" xref="m7.1.11.2.pmml">
+                <m:plus xml:id="m7.1.9" xref="m7.1.9.pmml"/>
+                <m:apply xml:id="m7.1.11.2.1" xref="m7.1.11.2.1.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m7.1.11.2.1.1">superscript</m:csymbol>
+                  <m:ci xml:id="m7.1.7" xref="m7.1.7.pmml">z</m:ci>
+                  <m:cn type="integer" xml:id="m7.1.8.1" xref="m7.1.8.1.pmml">2</m:cn>
+                </m:apply>
+                <m:ci xml:id="m7.1.10" xref="m7.1.10.pmml">c</m:ci>
+              </m:apply>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m7.1.pmml" xref="m7.1">
+              <m:mrow xml:id="m7.1.11.pmml" xref="m7.1.11">
+                <m:mrow xml:id="m7.1.11.1.pmml" xref="m7.1.11.1">
+                  <m:msub xml:id="m7.1.11.1.2.pmml" xref="m7.1.11.1.2">
+                    <m:mi xml:id="m7.1.1.pmml" xref="m7.1.1">f</m:mi>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+                  </m:msub>
+                  <m:mo xml:id="m7.1.11.1.1.pmml" xref="m7.1.11.1.1">⁢</m:mo>
+                  <m:mrow xml:id="m7.1.4.pmml" xref="m7.1.4">
+                    <m:mo xml:id="m7.1.4a.pmml" xref="m7.1.4">(</m:mo>
+                    <m:mi xml:id="m7.1.4b.pmml" xref="m7.1.4">z</m:mi>
+                    <m:mo xml:id="m7.1.4c.pmml" xref="m7.1.4">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m7.1.6.pmml" xref="m7.1.6">=</m:mo>
+                <m:mrow xml:id="m7.1.11.2.pmml" xref="m7.1.11.2">
+                  <m:msup xml:id="m7.1.11.2.1.pmml" xref="m7.1.11.2.1">
+                    <m:mi xml:id="m7.1.7.pmml" xref="m7.1.7">z</m:mi>
+                    <m:mn xml:id="m7.1.8.1.pmml" xref="m7.1.8.1">2</m:mn>
+                  </m:msup>
+                  <m:mo xml:id="m7.1.9.pmml" xref="m7.1.9">+</m:mo>
+                  <m:mi xml:id="m7.1.10.pmml" xref="m7.1.10">c</m:mi>
+                </m:mrow>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m7.1b" xref="m7.1.pmml">f_{\qvar{x0}}(z)=z^{2}+c</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+  </topic>
+  </topics>

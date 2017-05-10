@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://ntcir-math.nii.ac.jp/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+	<topic>
+		<num>Custom-test-1</num>
+		<query>
+		  <formula id="f1.0">
+		
+		<m:math alttext="R(\tetha)=[[cos(\theta) -sin(\theta)],[sin(\theta) cos(\theta)]]" display="inline">
+		<m:mrow>
+			<m:mi>R</m:mi>
+			<m:mrow>
+				<m:mo>(</m:mo>
+				<m:mi>&#952;</m:mi>
+				<m:mo>)</m:mo>
+			</m:mrow>
+			<m:mo>=</m:mo>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mi>cos</m:mi>
+								<m:mrow>
+									<m:mo>(</m:mo>
+									<m:mi>&#952;</m:mi>
+									<m:mo>)</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mo>-</m:mo>
+								<m:mi>sin</m:mi>
+								<m:mrow>
+									<m:mo>(</m:mo>
+									<m:mi>&#952;</m:mi>
+									<m:mo>)</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>			       
+						<m:mtr>
+							<m:mtd>
+								<m:mi>sin</m:mi>
+								<m:mrow>
+									<m:mo>(</m:mo>
+									<m:mi>&#952;</m:mi>
+									<m:mo>)</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mi>cos</m:mi>
+								<m:mrow>
+									<m:mo>(</m:mo>
+									<m:mi>&#952;</m:mi>
+									<m:mo>)</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+		</m:mrow>
+	</m:math>
+
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Custom-test-2</num>
+		<query>
+		  <formula id="f1.0">
+		 
+<m:math alttext="?x0 [[1 ?x1 ?x2],[0 1 ?x3], [0 0 1]] ?x4" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mn>1</m:mn>								
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+							</m:mtd>
+						</m:mtr>			       
+						<m:mtr>
+							<m:mtd>
+								<m:mn>0</m:mn>
+							</m:mtd>
+							<m:mtd>
+								<m:mn>1</m:mn>
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr>
+							<m:mtd>
+								<m:mn>0</m:mn>
+							</m:mtd>
+							<m:mtd>
+								<m:mn>0</m:mn>
+							</m:mtd>
+							<m:mtd>
+								<m:mn>1</m:mn>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x4"/>
+		</m:mrow>
+	</m:math>		 
+		 
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Custom-test-3</num>
+		<query>
+		  <formula id="f1.0">
+	<m:math alttext="∑^?x0_?x1 ?x2 = ∑^?x0_?x1 ?x3" display="inline">
+		<m:mrow>
+			<m:msubsup>
+				<m:mo largeop="true" symmetric="true" >∑</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			</m:msubsup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+			<m:mo>=</m:mo>
+			<m:msubsup>
+				<m:mo largeop="true" symmetric="true" >∑</m:mo>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+				<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			</m:msubsup>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x3"/>
+		</m:mrow>
+	</m:math>		
+		  </formula>
+		</query>
+	</topic>
+	<topic>
+		<num>Custom-test-4</num>
+		<query>
+		  <formula id="f1.0">
+		  
+		  <m:math alttext="?x0=[[?x1 -s?x2],[?x2 ?x1]]" display="inline">
+		<m:mrow>
+			<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x0"/>
+			<m:mo>=</m:mo>
+			<m:mrow>
+		        <m:mo>[</m:mo>	
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+							</m:mtd>
+							<m:mtd>
+								<m:mo>-</m:mo>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+							</m:mtd>
+						</m:mtr>			       
+						<m:mtr>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x2"/>
+							</m:mtd>
+							<m:mtd>
+								<mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x1"/>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+		         <m:mo>]</m:mo>
+		    </m:mrow>
+		</m:mrow>
+	</m:math>
+		  
+		  </formula>
+		</query>
+	</topic>
+	
+	<topic>
+		<num>Custom-test-5</num>
+		<query>
+		    <formula id="f1.0">
+			
+			<m:math alttext="a^2+b^2=c^2" display="inline">
+		<m:mrow>
+			<m:msup>
+				<m:mi>a</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:msup>
+				<m:mi>b</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mi>c</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+			
+			</formula>
+		</query>
+	</topic>
+</topics>

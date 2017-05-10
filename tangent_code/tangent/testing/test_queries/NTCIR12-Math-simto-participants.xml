@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics xmlns="http://ntcir-math.nii.ac.jp/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:mws="http://search.mathweb.org/ns">
+  <topic>
+    <num>NTCIR12-MathIR-1</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m1.1a">
+            <m:apply xml:id="m1.1.10" xref="m1.1.10.pmml">
+              <m:csymbol cd="latexml" xml:id="m1.1.8" xref="m1.1.8.pmml">assign</m:csymbol>
+              <m:apply xml:id="m1.1.10.1" xref="m1.1.10.1.pmml">
+                <m:times xml:id="m1.1.10.1.1" xref="m1.1.10.1.1.pmml"/>
+		<mws:simto name="a">
+		  <m:apply xml:id="m1.1.10.1" xref="m1.1.10.1.pmml">
+                    <m:times xml:id="m1.1.10.1.1" xref="m1.1.10.1.1.pmml"/>
+                    <m:ci xml:id="m1.1.1" xref="m1.1.1.pmml">d</m:ci>
+                    <m:ci xml:id="m1.1.2" xref="m1.1.2.pmml">c</m:ci>
+                    <m:ci xml:id="m1.1.3" xref="m1.1.3.pmml">l</m:ci>
+		  </m:apply>
+		</mws:simto>
+                <mws:qvar name="a"/>
+              </m:apply>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m1.1b">
+              <m:mrow xml:id="m1.1.10.pmml" xref="m1.1.10">
+                <m:mrow xml:id="m1.1.10.1.pmml" xref="m1.1.10.1">
+		  <mws:simto name="a">
+		    <m:mrow>
+                      <m:mi xml:id="m1.1.1.pmml" xref="m1.1.1">d</m:mi>
+                      <m:mo xml:id="m1.1.10.1.1.pmml" xref="m1.1.10.1.1">⁢</m:mo>
+                      <m:mi xml:id="m1.1.2.pmml" xref="m1.1.2">c</m:mi>
+                      <m:mo xml:id="m1.1.10.1.1a.pmml" xref="m1.1.10.1.1">⁢</m:mo>
+                      <m:mi xml:id="m1.1.3.pmml" xref="m1.1.3">l</m:mi>
+		    </m:mrow>
+		  </mws:simto>
+                  <m:mo xml:id="m1.1.10.1.1b.pmml" xref="m1.1.10.1.1">⁢</m:mo>
+                  <m:mrow xml:id="m1.1.10.1.2.pmml">
+                    <m:mo xml:id="m1.1.4.pmml">(</m:mo>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="a"/>
+                  <m:mo xml:id="m1.1.6.pmml">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m1.1.8.pmml" xref="m1.1.8">:=</m:mo>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m1.1c">\simto{a}{dcl}(\qvar@construct{a}):=\qvar@construct{f}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-2</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m2.1a">
+            <m:apply xml:id="m2.1.15" xref="m2.1.15.pmml">
+              <m:eq xml:id="m2.1.12" xref="m2.1.12.pmml"/>
+              <m:apply xml:id="m2.1.15.1" xref="m2.1.15.1.pmml">
+                <m:times xml:id="m2.1.15.1.1" xref="m2.1.15.1.1.pmml"/>
+		<mws:simto name="s">
+		  <m:apply xml:id="m2.1.15.1" xref="m2.1.15.1.pmml">
+                    <m:times xml:id="m2.1.15.1.1" xref="m2.1.15.1.1.pmml"/>
+                    <m:ci xml:id="m2.1.1" xref="m2.1.1.pmml">s</m:ci>
+                    <m:ci xml:id="m2.1.2" xref="m2.1.2.pmml">q</m:ci>
+                    <m:ci xml:id="m2.1.3" xref="m2.1.3.pmml">u</m:ci>
+                    <m:ci xml:id="m2.1.4" xref="m2.1.4.pmml">a</m:ci>
+                    <m:ci xml:id="m2.1.5" xref="m2.1.5.pmml">r</m:ci>
+                    <m:ci xml:id="m2.1.6" xref="m2.1.6.pmml">e</m:ci>
+		  </m:apply>
+		</mws:simto>
+		<mws:simto name="p">
+                <m:apply xml:id="m2.1.15.1.2.2" xref="m2.1.15.1.2.pmml">
+                  <m:times xml:id="m2.1.15.1.2.2.1" xref="m2.1.15.1.2.2.1.pmml"/>
+                  <m:ci xml:id="m2.1.8" xref="m2.1.8.pmml">p</m:ci>
+                  <m:ci xml:id="m2.1.9" xref="m2.1.9.pmml">h</m:ci>
+                  <m:ci xml:id="m2.1.10" xref="m2.1.10.pmml">i</m:ci>
+                </m:apply>
+		</mws:simto>
+              </m:apply>
+	      <mws:simto name="i">
+		<m:apply xml:id="m2.1.15.2" xref="m2.1.15.2.pmml">
+                  <m:times xml:id="m2.1.15.2.1" xref="m2.1.15.2.1.pmml"/>
+                  <m:ci xml:id="m2.1.13" xref="m2.1.13.pmml">i</m:ci>
+                  <m:ci xml:id="m2.1.14" xref="m2.1.14.pmml">d</m:ci>
+		</m:apply>
+	      </mws:simto>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m2.1b">
+              <m:mrow xml:id="m2.1.15.pmml" xref="m2.1.15">
+		<mws:simto name="s">
+                <m:mrow xml:id="m2.1.15.1.pmml" xref="m2.1.15.1">
+                  <m:mi xml:id="m2.1.1.pmml" xref="m2.1.1">s</m:mi>
+                  <m:mo xml:id="m2.1.15.1.1.pmml" xref="m2.1.15.1.1">⁢</m:mo>
+                  <m:mi xml:id="m2.1.2.pmml" xref="m2.1.2">q</m:mi>
+                  <m:mo xml:id="m2.1.15.1.1a.pmml" xref="m2.1.15.1.1">⁢</m:mo>
+                  <m:mi xml:id="m2.1.3.pmml" xref="m2.1.3">u</m:mi>
+                  <m:mo xml:id="m2.1.15.1.1b.pmml" xref="m2.1.15.1.1">⁢</m:mo>
+                  <m:mi xml:id="m2.1.4.pmml" xref="m2.1.4">a</m:mi>
+                  <m:mo xml:id="m2.1.15.1.1c.pmml" xref="m2.1.15.1.1">⁢</m:mo>
+                  <m:mi xml:id="m2.1.5.pmml" xref="m2.1.5">r</m:mi>
+                  <m:mo xml:id="m2.1.15.1.1d.pmml" xref="m2.1.15.1.1">⁢</m:mo>
+                  <m:mi xml:id="m2.1.6.pmml" xref="m2.1.6">e</m:mi>
+		</m:mrow>
+		</mws:simto>
+                  <m:mrow xml:id="m2.1.15.1.2.pmml" xref="m2.1.15.1.2.2">
+                    <m:mo xml:id="m2.1.7.pmml">(</m:mo>
+		    <mws:simto name="p">
+                    <m:mrow xml:id="m2.1.15.1.2.2.pmml" xref="m2.1.15.1.2.2">
+                      <m:mi xml:id="m2.1.8.pmml" xref="m2.1.8">p</m:mi>
+                      <m:mo xml:id="m2.1.15.1.2.2.1.pmml" xref="m2.1.15.1.2.2.1">⁢</m:mo>
+                      <m:mi xml:id="m2.1.9.pmml" xref="m2.1.9">h</m:mi>
+                      <m:mo xml:id="m2.1.15.1.2.2.1a.pmml" xref="m2.1.15.1.2.2.1">⁢</m:mo>
+                      <m:mi xml:id="m2.1.10.pmml" xref="m2.1.10">i</m:mi>
+                    </m:mrow>
+		    </mws:simto>
+                    <m:mo xml:id="m2.1.11.pmml">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m2.1.12.pmml" xref="m2.1.12">=</m:mo>
+		<mws:simto name="i">
+                  <m:mrow xml:id="m2.1.15.2.pmml" xref="m2.1.15.2">
+                    <m:mi xml:id="m2.1.13.pmml" xref="m2.1.13">i</m:mi>
+                    <m:mo xml:id="m2.1.15.2.1.pmml" xref="m2.1.15.2.1">⁢</m:mo>
+                    <m:mi xml:id="m2.1.14.pmml" xref="m2.1.14">d</m:mi>
+                  </m:mrow>
+		</mws:simto>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m2.1c">\simto{s}{square}(\simto{p}{phi})=\simto{i}{id}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <formula id="f.1">
+        <m:math>
+          <m:semantics xml:id="m3.1a">
+            <m:apply xml:id="m3.1.7" xref="m3.1.7.pmml">
+              <m:neq xml:id="m3.1.4" xref="m3.1.4.pmml"/>
+	      <mws:simto name="p">
+              <m:apply xml:id="m3.1.7.1" xref="m3.1.7.1.pmml">
+                <m:times xml:id="m3.1.7.1.1" xref="m3.1.7.1.1.pmml"/>
+                <m:ci xml:id="m3.1.1" xref="m3.1.1.pmml">p</m:ci>
+                <m:ci xml:id="m3.1.2" xref="m3.1.2.pmml">h</m:ci>
+                <m:ci xml:id="m3.1.3" xref="m3.1.3.pmml">i</m:ci>
+              </m:apply>
+	      </mws:simto>
+	      <mws:simto name="i">
+              <m:apply xml:id="m3.1.7.2" xref="m3.1.7.2.pmml">
+                <m:times xml:id="m3.1.7.2.1" xref="m3.1.7.2.1.pmml"/>
+                <m:ci xml:id="m3.1.5" xref="m3.1.5.pmml">i</m:ci>
+                <m:ci xml:id="m3.1.6" xref="m3.1.6.pmml">d</m:ci>
+              </m:apply>
+	      </mws:simto>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m3.1b">
+              <m:mrow xml:id="m3.1.7.pmml" xref="m3.1.7">
+		<mws:simto name="p">
+                <m:mrow xml:id="m3.1.7.1.pmml" xref="m3.1.7.1">
+                  <m:mi xml:id="m3.1.1.pmml" xref="m3.1.1">p</m:mi>
+                  <m:mo xml:id="m3.1.7.1.1.pmml" xref="m3.1.7.1.1">⁢</m:mo>
+                  <m:mi xml:id="m3.1.2.pmml" xref="m3.1.2">h</m:mi>
+                  <m:mo xml:id="m3.1.7.1.1a.pmml" xref="m3.1.7.1.1">⁢</m:mo>
+                  <m:mi xml:id="m3.1.3.pmml" xref="m3.1.3">i</m:mi>
+                </m:mrow>
+		</mws:simto>
+                <m:mo xml:id="m3.1.4.pmml" xref="m3.1.4">≠</m:mo>
+		<mws:simto name="i">
+                <m:mrow xml:id="m3.1.7.2.pmml" xref="m3.1.7.2">
+                  <m:mi xml:id="m3.1.5.pmml" xref="m3.1.5">i</m:mi>
+                  <m:mo xml:id="m3.1.7.2.1.pmml" xref="m3.1.7.2.1">⁢</m:mo>
+                  <m:mi xml:id="m3.1.6.pmml" xref="m3.1.6">d</m:mi>
+                </m:mrow>
+		</mws:simto>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m3.1c">\simto{s}{phi}\neq\simto{i}{id}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">hyperelliptic surface</keyword>
+      <keyword id="w.1">Riemann</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-3</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m6.1a">
+	    <mws:simto name="a">
+            <m:apply xml:id="m6.1.6" xref="m6.1.6.pmml">
+              <m:times xml:id="m6.1.6.1" xref="m6.1.6.1.pmml"/>
+              <m:apply xml:id="m6.1.6.2" xref="m6.1.6.2.pmml">
+                <m:csymbol cd="ambiguous" xml:id="m6.1.6.2.1">subscript</m:csymbol>
+                <m:ci xml:id="m6.1.1" xref="m6.1.1.pmml">H</m:ci>
+                <m:apply xml:id="m6.1.2.1" xref="m6.1.2.1.pmml">
+                  <m:minus xml:id="m6.1.2.1.2" xref="m6.1.2.1.2.pmml"/>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                </m:apply>
+              </m:apply>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+            </m:apply>
+	    </mws:simto>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m6.1b">
+	      <mws:simto name="a">
+              <m:mrow xml:id="m6.1.6.pmml" xref="m6.1.6">
+                <m:msub xml:id="m6.1.6.2.pmml" xref="m6.1.6.2">
+                  <m:mi xml:id="m6.1.1.pmml" xref="m6.1.1">H</m:mi>
+                  <m:mrow xml:id="m6.1.2.1.pmml" xref="m6.1.2.1">
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                    <m:mo xml:id="m6.1.2.1.2.pmml" xref="m6.1.2.1.2">-</m:mo>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                  </m:mrow>
+                </m:msub>
+                <m:mo xml:id="m6.1.6.1.pmml" xref="m6.1.6.1">⁢</m:mo>
+                <m:mrow xml:id="m6.1.6.3.pmml">
+                  <m:mo xml:id="m6.1.3.pmml">(</m:mo>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+                  <m:mo xml:id="m6.1.5.pmml">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+	      </mws:simto>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m6.1c">\simto{a}{H_{\qvar@construct{n}-\qvar@construct{k}}(\qvar@construct{X})}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">homology</keyword>
+      <keyword id="w.1">duality</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-4</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m7.1a">
+            <m:apply xml:id="m7.1.8" xref="m7.1.8.pmml">
+              <mws:simto name="b"><m:approx xml:id="m7.1.6" xref="m7.1.6.pmml"/></mws:simto>
+              <m:apply xml:id="m7.1.8.1" xref="m7.1.8.1.pmml">
+                <m:times xml:id="m7.1.8.1.1" xref="m7.1.8.1.1.pmml"/>
+                <m:apply xml:id="m7.1.8.1.2" xref="m7.1.8.1.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m7.1.8.1.2.1">superscript</m:csymbol>
+		  <mws:simto name="a">
+                  <m:apply xml:id="m7.1.1" xref="m7.1.1.pmml">
+                    <m:ci xml:id="m7.1.1.1" xref="m7.1.1.1.pmml">normal-^</m:ci>
+                    <m:ci xml:id="m7.1.1.2" xref="m7.1.1.2.pmml">CH</m:ci>
+                  </m:apply>
+		  </mws:simto>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="p"/>
+                </m:apply>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="A"/>
+              </m:apply>
+              <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="Y"/>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m7.1b">
+              <m:mrow xml:id="m7.1.8.pmml" xref="m7.1.8">
+                <m:mrow xml:id="m7.1.8.1.pmml" xref="m7.1.8.1">
+                  <m:msup xml:id="m7.1.8.1.2.pmml" xref="m7.1.8.1.2">
+		    <mws:simto name="a">
+                    <m:mover accent="true" xml:id="m7.1.1.pmml" xref="m7.1.1">
+                      <m:mi xml:id="m7.1.1.2.pmml" xref="m7.1.1.2">CH</m:mi>
+                      <m:mo xml:id="m7.1.1.1.pmml" xref="m7.1.1.1">^</m:mo>
+                    </m:mover>
+		    </mws:simto>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="p"/>
+                  </m:msup>
+                  <m:mo xml:id="m7.1.8.1.1.pmml" xref="m7.1.8.1.1">⁢</m:mo>
+                  <m:mrow xml:id="m7.1.8.1.3.pmml">
+                    <m:mo xml:id="m7.1.3.pmml">(</m:mo>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="A"/>
+                    <m:mo xml:id="m7.1.5.pmml">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <mws:simto name="b"><m:mo xml:id="m7.1.6.pmml" xref="m7.1.6">≅</m:mo></mws:simto>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="Y"/>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m7.1c">\simto{a}{\widehat{\mathrm{CH}}^{\qvar@construct{p}}}(\qvar@construct{A})%
+\simto{b}{\cong}\qvar@construct{Y}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">arithmetic</keyword>
+      <keyword id="w.1">Chow</keyword>
+      <keyword id="w.2">group</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-5</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m8.1a">
+            <m:apply xml:id="m8.1.14" xref="m8.1.14.pmml">
+              <m:times xml:id="m8.1.14.1" xref="m8.1.14.1.pmml"/>
+	      <mws:simto name="a">
+              <m:apply xml:id="m8.1.1" xref="m8.1.1.pmml">
+                <m:ci xml:id="m8.1.1.1" xref="m8.1.1.1.pmml">normal-^</m:ci>
+                <m:csymbol cd="latexml" xml:id="m8.1.1.2" xref="m8.1.1.2.pmml">degree</m:csymbol>
+              </m:apply>
+	      </mws:simto>
+              <m:apply xml:id="m8.1.14.2.2" xref="m8.1.14.2.pmml">
+                <m:times xml:id="m8.1.14.2.2.1" xref="m8.1.14.2.2.1.pmml"/>
+                <m:apply xml:id="m8.1.14.2.2.2" xref="m8.1.14.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.2.1">superscript</m:csymbol>
+                  <m:apply xml:id="m8.1.14.2.2.2.2" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.2.2.1">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                    <m:cn type="integer" xml:id="m8.1.4.1" xref="m8.1.4.1.pmml">1</m:cn>
+                  </m:apply>
+                  <m:apply xml:id="m8.1.5.1" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.5.1.3">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                    <m:cn type="integer" xml:id="m8.1.5.1.2.1" xref="m8.1.5.1.2.1.pmml">1</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:apply xml:id="m8.1.14.2.2.3" xref="m8.1.14.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.3.1">superscript</m:csymbol>
+                  <m:apply xml:id="m8.1.14.2.2.3.2" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.3.2.1">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                    <m:cn type="integer" xml:id="m8.1.7.1" xref="m8.1.7.1.pmml">2</m:cn>
+                  </m:apply>
+                  <m:apply xml:id="m8.1.8.1" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.8.1.3">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                    <m:cn type="integer" xml:id="m8.1.8.1.2.1" xref="m8.1.8.1.2.1.pmml">2</m:cn>
+                  </m:apply>
+                </m:apply>
+                <m:ci xml:id="m8.1.9" xref="m8.1.9.pmml">normal-⋯</m:ci>
+                <m:apply xml:id="m8.1.14.2.2.4" xref="m8.1.14.2.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.4.1">superscript</m:csymbol>
+                  <m:apply xml:id="m8.1.14.2.2.4.2" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.14.2.2.4.2.1">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                    <m:ci xml:id="m8.1.11.1" xref="m8.1.11.1.pmml">n</m:ci>
+                  </m:apply>
+                  <m:apply xml:id="m8.1.12.1" xref="m8.1.14.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m8.1.12.1.3">subscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                    <m:ci xml:id="m8.1.12.1.2.1" xref="m8.1.12.1.2.1.pmml">n</m:ci>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m8.1b">
+              <m:mrow xml:id="m8.1.14.pmml" xref="m8.1.14">
+		<mws:simto name="a">
+                <m:mover accent="true" xml:id="m8.1.1.pmml" xref="m8.1.1">
+                  <m:mi xml:id="m8.1.1.2.pmml" xref="m8.1.1.2">deg</m:mi>
+                  <m:mo xml:id="m8.1.1.1.pmml" xref="m8.1.1.1">^</m:mo>
+                </m:mover>
+		</mws:simto>
+                <m:mo xml:id="m8.1.14.1.pmml" xref="m8.1.14.1">⁢</m:mo>
+                <m:mrow xml:id="m8.1.14.2.pmml" xref="m8.1.14.2.2">
+                  <m:mo xml:id="m8.1.2.pmml">(</m:mo>
+                  <m:mrow xml:id="m8.1.14.2.2.pmml" xref="m8.1.14.2.2">
+                    <m:msubsup xml:id="m8.1.14.2.2.2.pmml" xref="m8.1.14.2.2">
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                      <m:mn xml:id="m8.1.4.1.pmml" xref="m8.1.4.1">1</m:mn>
+                      <m:msub xml:id="m8.1.5.1.pmml" xref="m8.1.14.2.2">
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                        <m:mn xml:id="m8.1.5.1.2.1.pmml" xref="m8.1.5.1.2.1">1</m:mn>
+                      </m:msub>
+                    </m:msubsup>
+                    <m:mo xml:id="m8.1.14.2.2.1.pmml" xref="m8.1.14.2.2.1">⁢</m:mo>
+                    <m:msubsup xml:id="m8.1.14.2.2.3.pmml" xref="m8.1.14.2.2">
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                      <m:mn xml:id="m8.1.7.1.pmml" xref="m8.1.7.1">2</m:mn>
+                      <m:msub xml:id="m8.1.8.1.pmml" xref="m8.1.14.2.2">
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                        <m:mn xml:id="m8.1.8.1.2.1.pmml" xref="m8.1.8.1.2.1">2</m:mn>
+                      </m:msub>
+                    </m:msubsup>
+                    <m:mo xml:id="m8.1.14.2.2.1a.pmml" xref="m8.1.14.2.2.1">⁢</m:mo>
+                    <m:mi mathvariant="normal" xml:id="m8.1.9.pmml" xref="m8.1.9">⋯</m:mi>
+                    <m:mo xml:id="m8.1.14.2.2.1b.pmml" xref="m8.1.14.2.2.1">⁢</m:mo>
+                    <m:msubsup xml:id="m8.1.14.2.2.4.pmml" xref="m8.1.14.2.2">
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="x"/>
+                      <m:mi xml:id="m8.1.11.1.pmml" xref="m8.1.11.1">n</m:mi>
+                      <m:msub xml:id="m8.1.12.1.pmml" xref="m8.1.14.2.2">
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                        <m:mi xml:id="m8.1.12.1.2.1.pmml" xref="m8.1.12.1.2.1">n</m:mi>
+                      </m:msub>
+                    </m:msubsup>
+                  </m:mrow>
+                  <m:mo xml:id="m8.1.13.pmml">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m8.1c">\displaystyle\simto{a}{\widehat{\deg}}(\qvar@construct{x}_{1}^{\qvar@construct%
+{k}_{1}}\qvar@construct{x}_{2}^{\qvar@construct{k}_{2}}\cdots\qvar@construct{x%
+}_{n}^{\qvar@construct{k}_{n}})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">theorem</keyword>
+      <keyword id="w.1">arithmetic</keyword>
+      <keyword id="w.2">Chern</keyword>
+      <keyword id="w.3">number</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-6</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m9.1a">
+            <m:apply xml:id="m9.1.13" xref="m9.1.13.pmml">
+              <m:eq xml:id="m9.1.5" xref="m9.1.5.pmml"/>
+              <m:apply xml:id="m9.1.13.1" xref="m9.1.13.1.pmml">
+                <m:times xml:id="m9.1.13.1.1" xref="m9.1.13.1.1.pmml"/>
+                <m:ci xml:id="m9.1.1" xref="m9.1.1.pmml">E</m:ci>
+                <mws:simto name="a"><m:ci xml:id="m9.1.3" xref="m9.1.3.pmml">λ</m:ci></mws:simto>
+              </m:apply>
+              <m:apply xml:id="m9.1.13.2" xref="m9.1.13.2.pmml">
+                <m:minus xml:id="m9.1.6" xref="m9.1.6.pmml"/>
+                <m:apply xml:id="m9.1.13.2.1" xref="m9.1.13.2.1.pmml">
+                  <m:times xml:id="m9.1.13.2.1.1" xref="m9.1.13.2.1.1.pmml"/>
+		  <mws:simto name="b">
+                  <m:apply xml:id="m9.1.13.2.1.2" xref="m9.1.13.2.1.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m9.1.13.2.1.2.1">subscript</m:csymbol>
+                    <m:apply xml:id="m9.1.13.2.1.2.2">
+                      <m:csymbol cd="ambiguous" xml:id="m9.1.13.2.1.2.2.1">superscript</m:csymbol>
+                      <m:ci xml:id="m9.1.7" xref="m9.1.7.pmml">m</m:ci>
+                      <m:cn type="integer" xml:id="m9.1.8.1" xref="m9.1.8.1.pmml">2</m:cn>
+                    </m:apply>
+                    <m:ci xml:id="m9.1.9.1" xref="m9.1.9.1.pmml">dyn</m:ci>
+                  </m:apply>
+		  </mws:simto>
+                  <mws:simto name="a"><m:ci xml:id="m9.1.11" xref="m9.1.11.pmml">λ</m:ci></mws:simto>
+                </m:apply>
+              </m:apply>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m9.1b">
+              <m:mrow xml:id="m9.1.13.pmml" xref="m9.1.13">
+                <m:mrow xml:id="m9.1.13.1.pmml" xref="m9.1.13.1">
+                  <m:mi xml:id="m9.1.1.pmml" xref="m9.1.1">E</m:mi>
+                  <m:mo xml:id="m9.1.13.1.1.pmml" xref="m9.1.13.1.1">⁢</m:mo>
+                  <m:mrow xml:id="m9.1.13.1.2.pmml">
+                    <m:mo xml:id="m9.1.2.pmml">(</m:mo>
+                    <mws:simto name="a"><m:mi xml:id="m9.1.3.pmml" xref="m9.1.3">λ</m:mi></mws:simto>
+                    <m:mo xml:id="m9.1.4.pmml">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m9.1.5.pmml" xref="m9.1.5">=</m:mo>
+                <m:mrow xml:id="m9.1.13.2.pmml" xref="m9.1.13.2">
+                  <m:mo xml:id="m9.1.6.pmml" xref="m9.1.6">-</m:mo>
+                  <m:mrow xml:id="m9.1.13.2.1.pmml" xref="m9.1.13.2.1">
+		    <mws:simto name="b">
+                    <m:msubsup xml:id="m9.1.13.2.1.2.pmml" xref="m9.1.13.2.1.2">
+                      <m:mi xml:id="m9.1.7.pmml" xref="m9.1.7">m</m:mi>
+                      <m:mi xml:id="m9.1.9.1.pmml" xref="m9.1.9.1">dyn</m:mi>
+                      <m:mn xml:id="m9.1.8.1.pmml" xref="m9.1.8.1">2</m:mn>
+                    </m:msubsup>
+		    </mws:simto>
+                    <m:mo xml:id="m9.1.13.2.1.1.pmml" xref="m9.1.13.2.1.1">⁢</m:mo>
+                    <m:mrow xml:id="m9.1.13.2.1.3.pmml">
+                      <m:mo xml:id="m9.1.10.pmml">(</m:mo>
+                      <mws:simto name="a"><m:mi xml:id="m9.1.11.pmml" xref="m9.1.11">λ</m:mi></mws:simto>
+                      <m:mo xml:id="m9.1.12.pmml">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m9.1c">E(\simto{a}{\lambda})=-\simto{b}{m^{2}_{\rm dyn}}(\simto{a}{\lambda})</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">Electron Energy</keyword>
+      <keyword id="w.1">Quantum</keyword>
+      <keyword id="w.2">Dynamics</keyword>
+      <keyword id="w.3">NJL</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-7</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m10.1a">
+            <m:apply xml:id="m10.1.18" xref="m10.1.18.pmml">
+              <m:eq xml:id="m10.1.9" xref="m10.1.9.pmml"/>
+              <m:apply xml:id="m10.1.18.1" xref="m10.1.18.1.pmml">
+                <m:apply xml:id="m10.1.18.1.1" xref="m10.1.18.1.1.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m10.1.18.1.1.1">subscript</m:csymbol>
+                  <m:limit xml:id="m10.1.1" xref="m10.1.1.pmml"/>
+                  <m:apply xml:id="m10.1.2.1" xref="m10.1.2.1.pmml">
+                    <m:ci xml:id="m10.1.2.1.2" xref="m10.1.2.1.2.pmml">normal-→</m:ci>
+                    <m:ci xml:id="m10.1.2.1.1" xref="m10.1.2.1.1.pmml">n</m:ci>
+                    <m:infinity xml:id="m10.1.2.1.3" xref="m10.1.2.1.3.pmml"/>
+                  </m:apply>
+                </m:apply>
+                <m:apply xml:id="m10.1.18.1.2" xref="m10.1.18.1.2.pmml">
+                  <m:apply xml:id="m10.1.18.1.2.1" xref="m10.1.18.1.2.1.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m10.1.18.1.2.1.1">subscript</m:csymbol>
+                    <m:int xml:id="m10.1.3" xref="m10.1.3.pmml"/>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+                  </m:apply>
+                  <m:apply xml:id="m10.1.18.1.2.2" xref="m10.1.18.1.2.2.pmml">
+                    <m:times xml:id="m10.1.18.1.2.2.1" xref="m10.1.18.1.2.2.1.pmml"/>
+                    <m:apply xml:id="m10.1.18.1.2.2.2" xref="m10.1.18.1.2.2.2.pmml">
+                      <m:csymbol cd="ambiguous" xml:id="m10.1.18.1.2.2.2.1">subscript</m:csymbol>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+                      <m:ci xml:id="m10.1.6.1" xref="m10.1.6.1.pmml">n</m:ci>
+                    </m:apply>
+                    <m:apply xml:id="m10.1.18.1.2.2.3" xref="m10.1.18.1.2.2.3.pmml">
+                      <m:csymbol cd="latexml" xml:id="m10.1.7" xref="m10.1.7.pmml">differential-d</m:csymbol>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="u"/>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+	      <mws:simto name="a">
+              <m:apply xml:id="m10.1.18.2" xref="m10.1.18.2.pmml">
+                <m:apply xml:id="m10.1.18.2.1" xref="m10.1.18.2.1.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m10.1.18.2.1.1">subscript</m:csymbol>
+                  <m:int xml:id="m10.1.10" xref="m10.1.10.pmml"/>
+                  <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+                </m:apply>
+                <m:apply xml:id="m10.1.18.2.2" xref="m10.1.18.2.2.pmml">
+                  <m:apply xml:id="m10.1.18.2.2.1" xref="m10.1.18.2.2.1.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m10.1.18.2.2.1.1">subscript</m:csymbol>
+                    <m:limit xml:id="m10.1.12" xref="m10.1.12.pmml"/>
+                    <m:apply xml:id="m10.1.13.1" xref="m10.1.13.1.pmml">
+                      <m:ci xml:id="m10.1.13.1.2" xref="m10.1.13.1.2.pmml">normal-→</m:ci>
+                      <m:ci xml:id="m10.1.13.1.1" xref="m10.1.13.1.1.pmml">n</m:ci>
+                      <m:infinity xml:id="m10.1.13.1.3" xref="m10.1.13.1.3.pmml"/>
+                    </m:apply>
+                  </m:apply>
+                  <m:apply xml:id="m10.1.18.2.2.2" xref="m10.1.18.2.2.2.pmml">
+                    <m:times xml:id="m10.1.18.2.2.2.1" xref="m10.1.18.2.2.2.1.pmml"/>
+		    <mws:exact>
+                    <m:apply xml:id="m10.1.18.2.2.2.2" xref="m10.1.18.2.2.2.2.pmml">
+                      <m:csymbol cd="ambiguous" xml:id="m10.1.18.2.2.2.2.1">subscript</m:csymbol>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+                      <m:ci xml:id="m10.1.15.1" xref="m10.1.15.1.pmml">n</m:ci>
+                    </m:apply>
+		    </mws:exact>
+                    <m:ci xml:id="m10.1.16" xref="m10.1.16.pmml">d</m:ci>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="u"/>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+	      </mws:simto>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m10.1b">
+              <m:mrow xml:id="m10.1.18.pmml" xref="m10.1.18">
+                <m:mrow xml:id="m10.1.18.1.pmml" xref="m10.1.18.1">
+                  <m:munder xml:id="m10.1.18.1.1.pmml" xref="m10.1.18.1.1">
+                    <m:mo movablelimits="false" xml:id="m10.1.1.pmml" xref="m10.1.1">lim</m:mo>
+                    <m:mrow xml:id="m10.1.2.1.pmml" xref="m10.1.2.1">
+                      <m:mi xml:id="m10.1.2.1.1.pmml" xref="m10.1.2.1.1">n</m:mi>
+                      <m:mo xml:id="m10.1.2.1.2.pmml" xref="m10.1.2.1.2">→</m:mo>
+                      <m:mi mathvariant="normal" xml:id="m10.1.2.1.3.pmml" xref="m10.1.2.1.3">∞</m:mi>
+                    </m:mrow>
+                  </m:munder>
+                  <m:mo xml:id="m10.1.18.1a.pmml" xref="m10.1.18.1">⁡</m:mo>
+                  <m:mrow xml:id="m10.1.18.1.2.pmml" xref="m10.1.18.1.2">
+                    <m:munder xml:id="m10.1.18.1.2.1.pmml" xref="m10.1.18.1.2.1">
+                      <m:mo largeop="true" movablelimits="false" symmetric="true" xml:id="m10.1.3.pmml" xref="m10.1.3">∫</m:mo>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+                    </m:munder>
+                    <m:mrow xml:id="m10.1.18.1.2.2.pmml" xref="m10.1.18.1.2.2">
+                      <m:msub xml:id="m10.1.18.1.2.2.2.pmml" xref="m10.1.18.1.2.2.2">
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+                        <m:mi xml:id="m10.1.6.1.pmml" xref="m10.1.6.1">n</m:mi>
+                      </m:msub>
+                      <m:mo xml:id="m10.1.18.1.2.2.1.pmml" xref="m10.1.18.1.2.2.1">⁢</m:mo>
+                      <m:mrow xml:id="m10.1.18.1.2.2.3.pmml" xref="m10.1.18.1.2.2.3">
+                        <m:mo xml:id="m10.1.7.pmml" xref="m10.1.7">𝑑</m:mo>
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="u"/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo xml:id="m10.1.9.pmml" xref="m10.1.9">=</m:mo>
+		<mws:simto name="a">
+                  <m:mrow xml:id="m10.1.18.2.pmml" xref="m10.1.18.2">
+                  <m:munder xml:id="m10.1.18.2.1.pmml" xref="m10.1.18.2.1">
+                    <m:mo largeop="true" movablelimits="false" symmetric="true" xml:id="m10.1.10.pmml" xref="m10.1.10">∫</m:mo>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="X"/>
+                  </m:munder>
+                  <m:mrow xml:id="m10.1.18.2.2.pmml" xref="m10.1.18.2.2">
+                    <m:munder xml:id="m10.1.18.2.2.1.pmml" xref="m10.1.18.2.2.1">
+                      <m:mo movablelimits="false" xml:id="m10.1.12.pmml" xref="m10.1.12">lim</m:mo>
+                      <m:mrow xml:id="m10.1.13.1.pmml" xref="m10.1.13.1">
+                        <m:mi xml:id="m10.1.13.1.1.pmml" xref="m10.1.13.1.1">n</m:mi>
+                        <m:mo xml:id="m10.1.13.1.2.pmml" xref="m10.1.13.1.2">→</m:mo>
+                        <m:mi mathvariant="normal" xml:id="m10.1.13.1.3.pmml" xref="m10.1.13.1.3">∞</m:mi>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mo xml:id="m10.1.18.2.2a.pmml" xref="m10.1.18.2.2">⁡</m:mo>
+                    <m:mrow xml:id="m10.1.18.2.2.2.pmml" xref="m10.1.18.2.2.2">
+		      <mws:exact>
+                      <m:msub xml:id="m10.1.18.2.2.2.2.pmml" xref="m10.1.18.2.2.2.2">
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="f"/>
+                        <m:mi xml:id="m10.1.15.1.pmml" xref="m10.1.15.1">n</m:mi>
+                      </m:msub>
+		      </mws:exact>
+                      <m:mo xml:id="m10.1.18.2.2.2.1.pmml" xref="m10.1.18.2.2.2.1">⁢</m:mo>
+                      <m:mi xml:id="m10.1.16.pmml" xref="m10.1.16">d</m:mi>
+                      <m:mo xml:id="m10.1.18.2.2.2.1a.pmml" xref="m10.1.18.2.2.2.1">⁢</m:mo>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="u"/>
+                    </m:mrow>
+                  </m:mrow>
+                  </m:mrow>
+		</mws:simto>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m10.1c">\lim\limits_{n\rightarrow\infty}\int\limits_{\qvar@construct{X}}%
+\qvar@construct{f}_{n}d\qvar@construct{u}=\simto{a}{\int\limits_{%
+\qvar@construct{X}}\lim\limits_{n\rightarrow\infty}\exact{\qvar@construct{f}_{%
+n}}d\qvar@construct{u}}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">dominated convergence</keyword>
+      <keyword id="w.1">Lebesgue</keyword>
+    </query>
+    
+  </topic>
+  <topic>
+    <num>NTCIR12-MathIR-8</num>
+    <query>
+      <formula id="f.0">
+        <m:math>
+          <m:semantics xml:id="m12.1a">
+            <m:apply xml:id="m12.1.25" xref="m12.1.25.pmml">
+              <m:eq xml:id="m12.1.23" xref="m12.1.23.pmml"/>
+	      <mws:simto name="a">
+              <m:apply xml:id="m12.1.25.1" xref="m12.1.25.1.pmml">
+                <m:apply xml:id="m12.1.25.1.1" xref="m12.1.25.1.1.pmml">
+                  <m:csymbol cd="ambiguous" xml:id="m12.1.25.1.1.1">superscript</m:csymbol>
+                  <m:apply xml:id="m12.1.25.1.1.2">
+                    <m:csymbol cd="ambiguous" xml:id="m12.1.25.1.1.2.1">subscript</m:csymbol>
+                    <m:sum xml:id="m12.1.1" xref="m12.1.1.pmml"/>
+                    <m:apply xml:id="m12.1.2.1" xref="m12.1.2.1.pmml">
+                      <m:eq xml:id="m12.1.2.1.2" xref="m12.1.2.1.2.pmml"/>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                      <m:cn type="integer" xml:id="m12.1.2.1.3" xref="m12.1.2.1.3.pmml">1</m:cn>
+                    </m:apply>
+                  </m:apply>
+		  <mws:exact>
+                  <m:apply xml:id="m12.1.3.1" xref="m12.1.3.1.pmml">
+                    <m:minus xml:id="m12.1.3.1.4" xref="m12.1.3.1.4.pmml"/>
+                    <m:apply xml:id="m12.1.3.1.6" xref="m12.1.3.1.6.pmml">
+                      <m:times xml:id="m12.1.3.1.2" xref="m12.1.3.1.2.pmml"/>
+                      <m:cn type="integer" xml:id="m12.1.3.1.1" xref="m12.1.3.1.1.pmml">2</m:cn>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                    </m:apply>
+                    <m:cn type="integer" xml:id="m12.1.3.1.5" xref="m12.1.3.1.5.pmml">1</m:cn>
+                  </m:apply>
+		  </mws:exact>
+                </m:apply>
+                <m:apply xml:id="m12.1.25.1.2" xref="m12.1.25.1.2.pmml">
+                  <m:times xml:id="m12.1.20" xref="m12.1.20.pmml"/>
+                  <m:apply xml:id="m12.1.25.1.2.1" xref="m12.1.25.1.2.1.pmml">
+                    <m:times xml:id="m12.1.25.1.2.1.1" xref="m12.1.25.1.2.1.1.pmml"/>
+                    <m:apply xml:id="m12.1.25.1.2.1.2" xref="m12.1.25.1.2.1.2.pmml">
+                      <m:times xml:id="m12.1.9" xref="m12.1.9.pmml"/>
+                      <m:apply xml:id="m12.1.25.1.2.1.2.1" xref="m12.1.25.1.2.1.2.1.pmml">
+                        <m:csymbol cd="ambiguous" xml:id="m12.1.25.1.2.1.2.1.1">superscript</m:csymbol>
+                        <m:apply xml:id="m12.1.25.1.2.1.2.1.2.2" xref="m12.1.25.1.2.1.2.1.2.pmml">
+                          <m:minus xml:id="m12.1.5" xref="m12.1.5.pmml"/>
+                          <m:cn type="integer" xml:id="m12.1.6" xref="m12.1.6.pmml">1</m:cn>
+                        </m:apply>
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                      </m:apply>
+                      <m:ci xml:id="m12.1.10" xref="m12.1.10.pmml">c</m:ci>
+                    </m:apply>
+                    <m:ci xml:id="m12.1.11" xref="m12.1.11.pmml">o</m:ci>
+                    <m:ci xml:id="m12.1.12" xref="m12.1.12.pmml">s</m:ci>
+                    <m:apply xml:id="m12.1.25.1.2.1.3.2" xref="m12.1.25.1.2.1.3.pmml">
+                      <m:times xml:id="m12.1.17" xref="m12.1.17.pmml"/>
+                      <m:apply xml:id="m12.1.25.1.2.1.3.2.1" xref="m12.1.25.1.2.1.3.pmml">
+                        <m:divide xml:id="m12.1.15" xref="m12.1.15.pmml"/>
+                        <m:cn type="integer" xml:id="m12.1.14" xref="m12.1.14.pmml">1</m:cn>
+                        <m:cn type="integer" xml:id="m12.1.16" xref="m12.1.16.pmml">4</m:cn>
+                      </m:apply>
+                      <m:ci xml:id="m12.1.18" xref="m12.1.18.pmml">π</m:ci>
+                    </m:apply>
+                  </m:apply>
+                  <m:apply xml:id="m12.1.25.1.2.2" xref="m12.1.25.1.2.2.pmml">
+                    <m:csymbol cd="ambiguous" xml:id="m12.1.25.1.2.2.1">superscript</m:csymbol>
+                    <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                    <m:apply xml:id="m12.1.22.1" xref="m12.1.22.1.pmml">
+                      <m:divide xml:id="m12.1.22.1.2" xref="m12.1.22.1.2.pmml"/>
+                      <m:cn type="integer" xml:id="m12.1.22.1.1" xref="m12.1.22.1.1.pmml">2</m:cn>
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                    </m:apply>
+                  </m:apply>
+                </m:apply>
+              </m:apply>
+	    </mws:simto>
+            <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="R"/>
+            </m:apply>
+            <m:annotation-xml encoding="MathML-Presentation" xml:id="m12.1b">
+              <m:mrow xml:id="m12.1.25.pmml" xref="m12.1.25">
+		<mws:simto name="a">
+                <m:mrow xml:id="m12.1.25.1.pmml" xref="m12.1.25.1">
+                  <m:msubsup xml:id="m12.1.25.1.1.pmml" xref="m12.1.25.1.1">
+                    <m:mo largeop="true" symmetric="true" xml:id="m12.1.1.pmml" xref="m12.1.1">∑</m:mo>
+                    <m:mrow xml:id="m12.1.2.1.pmml" xref="m12.1.2.1">
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                      <m:mo xml:id="m12.1.2.1.2.pmml" xref="m12.1.2.1.2">=</m:mo>
+                      <m:mn xml:id="m12.1.2.1.3.pmml" xref="m12.1.2.1.3">1</m:mn>
+                    </m:mrow>
+		    <mws:exact>
+                    <m:mrow xml:id="m12.1.3.1.pmml" xref="m12.1.3.1">
+                      <m:mrow xml:id="m12.1.3.1.6.pmml" xref="m12.1.3.1.6">
+                        <m:mn xml:id="m12.1.3.1.1.pmml" xref="m12.1.3.1.1">2</m:mn>
+                        <m:mo xml:id="m12.1.3.1.2.pmml" xref="m12.1.3.1.2">*</m:mo>
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                      </m:mrow>
+                      <m:mo xml:id="m12.1.3.1.4.pmml" xref="m12.1.3.1.4">-</m:mo>
+                      <m:mn xml:id="m12.1.3.1.5.pmml" xref="m12.1.3.1.5">1</m:mn>
+                    </m:mrow>
+		    </mws:exact>
+                  </m:msubsup>
+                  <m:mrow xml:id="m12.1.25.1.2.pmml" xref="m12.1.25.1.2">
+                    <m:mrow xml:id="m12.1.25.1.2.1.pmml" xref="m12.1.25.1.2.1">
+                      <m:mrow xml:id="m12.1.25.1.2.1.2.pmml" xref="m12.1.25.1.2.1.2">
+                        <m:msup xml:id="m12.1.25.1.2.1.2.1.pmml" xref="m12.1.25.1.2.1.2.1">
+                          <m:mrow xml:id="m12.1.25.1.2.1.2.1.2.pmml" xref="m12.1.25.1.2.1.2.1.2.2">
+                            <m:mo xml:id="m12.1.4.pmml">(</m:mo>
+                            <m:mrow xml:id="m12.1.25.1.2.1.2.1.2.2.pmml" xref="m12.1.25.1.2.1.2.1.2.2">
+                              <m:mo xml:id="m12.1.5.pmml" xref="m12.1.5">-</m:mo>
+                              <m:mn xml:id="m12.1.6.pmml" xref="m12.1.6">1</m:mn>
+                            </m:mrow>
+                            <m:mo xml:id="m12.1.7.pmml">)</m:mo>
+                          </m:mrow>
+                          <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                        </m:msup>
+                        <m:mo xml:id="m12.1.9.pmml" xref="m12.1.9">*</m:mo>
+                        <m:mi xml:id="m12.1.10.pmml" xref="m12.1.10">c</m:mi>
+                      </m:mrow>
+                      <m:mo xml:id="m12.1.25.1.2.1.1.pmml" xref="m12.1.25.1.2.1.1">⁢</m:mo>
+                      <m:mi xml:id="m12.1.11.pmml" xref="m12.1.11">o</m:mi>
+                      <m:mo xml:id="m12.1.25.1.2.1.1a.pmml" xref="m12.1.25.1.2.1.1">⁢</m:mo>
+                      <m:mi xml:id="m12.1.12.pmml" xref="m12.1.12">s</m:mi>
+                      <m:mo xml:id="m12.1.25.1.2.1.1b.pmml" xref="m12.1.25.1.2.1.1">⁢</m:mo>
+                      <m:mrow xml:id="m12.1.25.1.2.1.3.pmml" xref="m12.1.25.1.2.1.3.2">
+                        <m:mo xml:id="m12.1.13.pmml">(</m:mo>
+                        <m:mrow xml:id="m12.1.25.1.2.1.3.2.pmml" xref="m12.1.25.1.2.1.3.2">
+                          <m:mrow xml:id="m12.1.25.1.2.1.3.2.1.pmml" xref="m12.1.25.1.2.1.3.2">
+                            <m:mn xml:id="m12.1.14.pmml" xref="m12.1.14">1</m:mn>
+                            <m:mo xml:id="m12.1.15.pmml" xref="m12.1.15">/</m:mo>
+                            <m:mn xml:id="m12.1.16.pmml" xref="m12.1.16">4</m:mn>
+                          </m:mrow>
+                          <m:mo xml:id="m12.1.17.pmml" xref="m12.1.17">*</m:mo>
+                          <m:mi xml:id="m12.1.18.pmml" xref="m12.1.18">π</m:mi>
+                        </m:mrow>
+                        <m:mo xml:id="m12.1.19.pmml">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo xml:id="m12.1.20.pmml" xref="m12.1.20">*</m:mo>
+                    <m:msup xml:id="m12.1.25.1.2.2.pmml" xref="m12.1.25.1.2.2">
+                      <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="n"/>
+                      <m:mrow xml:id="m12.1.22.1.pmml" xref="m12.1.22.1">
+                        <m:mn xml:id="m12.1.22.1.1.pmml" xref="m12.1.22.1.1">2</m:mn>
+                        <m:mo xml:id="m12.1.22.1.2.pmml" xref="m12.1.22.1.2">/</m:mo>
+                        <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="k"/>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+	      </mws:simto>
+                <m:mo xml:id="m12.1.23.pmml" xref="m12.1.23">=</m:mo>
+                <mws:qvar xmlns:mws="http://search.mathweb.org/ns" name="R"/>
+              </m:mrow>
+            </m:annotation-xml>
+            <m:annotation encoding="application/x-tex" xml:id="m12.1c">\simto{a}{\sum_{\qvar@construct{n}=1}^{\exact{2*\qvar@construct{k}-1}}(-1)^{%
+\qvar@construct{n}}*cos(1/4*\pi)*\qvar@construct{n}^{2/\qvar@construct{k}}}=%
+\qvar@construct{R}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </formula>
+      <keyword id="w.0">Gauss sums</keyword>
+      <keyword id="w.1">finite sums</keyword>
+    </query>
+    
+  </topic>
+</topics>

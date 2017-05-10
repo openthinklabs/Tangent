@@ -1,0 +1,9 @@
+queries	testing/test_queries/ntcir-wikipedia_small.xml
+window	4
+cntl	tangent.cntl
+index_fileids	{2864, 2865, 2867, 2868, 2869, 2872, 2874, 2877, 2879}
+doc_list	testing/testlist.txt
+database	test
+chunk_size	5
+file_skips	[0, 201, 416, 627, 882, 1106, 1301, 1557, 1874]
+query_fileids	{23096}
