@@ -171,7 +171,7 @@ if __name__ == '__main__':
 
 
             with open(query_file, encoding='utf-8') as file:
-                parsed = BeautifulSoup(file)
+                parsed = BeautifulSoup(file,"lxml")
 
             query_list = parsed.find_all("topic")
             print("There are %s queries." % (len(query_list)), flush=True)

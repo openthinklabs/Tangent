@@ -27,11 +27,11 @@ class MathExtractor:
     latex_expr = dollars+".{1,200}?"+dollars # converted to math_expr in cleaned text
     # latex could also be surrounded by \(..\) or \[..\], but these are ignored for now (FWT)
     text_token = r"[^<\s]+"
- 
+
     math_pattern = re.compile(math_expr, re.DOTALL)  # TODO: allow for LaTeX as well
     # split_pattern = re.compile(math_expr+"|"+latex_expr+"|"+text_token, re.DOTALL)
 
-    inner_math = re.compile(".*(<"+math_expr+")", re.DOTALL)  # rightmost <*:math 
+    inner_math = re.compile(".*(<"+math_expr+")", re.DOTALL)  # rightmost <*:math
     open_tag = re.compile("<(?!/)(?!mws:qvar)"+namespace, re.DOTALL) # up to and including namespace
     close_tag = re.compile("</(?!mws:qvar)"+namespace, re.DOTALL)    # but keep qvar namespace
 
@@ -43,7 +43,7 @@ class MathExtractor:
     def math_tokens(cls, content):
         """
         extract Math expressions from XML (incl. HTML) file
-        
+
         param content: XML document
         type  content: string
 
@@ -61,14 +61,14 @@ class MathExtractor:
 ##                # Does not handle the case where one math expression is nested inside another
 ##                #       (likely with different namespaces)
 ##                # N.B. Removing this check speeds up processing significantly (FWT)
-##                token = cls.inner_math.sub(r"\0",token)  # find innermost <*:math 
+##                token = cls.inner_math.sub(r"\0",token)  # find innermost <*:math
                 token = cls.close_tag.sub("</",token) # drop namespaces (FWT)
                 token = cls.open_tag.sub("<",token)
                 math.append(token)
-                
+
             else:  # LaTeX math expression
                 tex = token.strip("$") # TODO: handle other latex delimiters
-                math.append(LatexToMathML.convert_to_mathml(tex))           
+                math.append(LatexToMathML.convert_to_mathml(tex))
 
         return math
 
@@ -77,20 +77,20 @@ class MathExtractor:
     def isolate_pmml(cls,tree):
         """
         extract the Presentation MathML from a MathML expr
-        
+
         param tree: MathML expression
         type  tree: string
         return: Presentation MathML
         rtype:  string
         """
-        parsed_xml=BeautifulSoup(tree)
+        parsed_xml=BeautifulSoup(tree,"lxml")
 
 
         math_root=parsed_xml.find("math") # namespaces have been removed (FWT)
 ##        altext=math_root.get("alttext")
         application_tex= math_root.find("annotation",{"encoding":"application/x-tex"})
         #print("M: %s, A: %s, AA: %s" % (parsed_xml,altext,application_tex))
-        
+
         if application_tex:
 ##            application_tex_text=application_tex.text
             application_tex.decompose()
@@ -209,7 +209,7 @@ class MathExtractor:
                     else:
                         groupBySLT[s].position.append(idx)
             return(list(groupBySLT.values()))
-        
+
         except UnknownTagException as e:
             print("Unknown tag in file or query "+str(content_id)+": "+e.tag, file=sys.stderr)
             missing_tags[e.tag] = missing_tags.get(e.tag, set())
