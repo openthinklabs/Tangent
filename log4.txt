@@ -1,0 +1,20 @@
+tangent.0.3.1/tangent_code/tangent⟫ python3  index.py
+reading testing/testlist.txt
+There are 41 documents to index
+4 is done saving to database 19883
+8 is done saving to database 19891
+0 is done saving to database 19875
+6 is done saving to database 19886
+7 is done saving to database 19890
+3 is done saving to database 19880
+5 is done saving to database 19882
+2 is done saving to database 19878
+1 is done saving to database 19876
+Done indexing collection testing/testlist.txt
+Total number of documents/queries processed: 41
+Total number of unique expressions per document involved: 648
+Total number of expression instances involved: 850
+Total number of keywords involved: 0
+No unrecognized tags found in expressions
+All files/queries parsed successfully
+Elapsed time 3.7132773399353027
