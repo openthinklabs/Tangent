@@ -3,7 +3,8 @@ Instructions for installing and running Tangent 0.3.1
 
 Tangent uses python version 3, including the requests and beautiful soup modules.  Portions of the system also use LaTeXML for data conversion and various utilities (available through collections like MacPorts).
 
-Add the directory containing the new tangent directory to your PYTHONPATH (before any other directories that have other versions of tangent)
+Add the directory containing the new tangent directory to your PYTHONPATH
+(before any other directories that have other versions of tangent)
 
 make (use dmake on Windows):
    creates executable for prototype search engine
@@ -13,7 +14,7 @@ make (use dmake on Windows):
 python index.py help
    displays help text for creating tuples for indexing
 
-python index.py 
+python index.py
     creates list of tuples for indexing as tangent/db-index/test_i_*.tsv
     This uses the default tangent.cntl as the control file.
 
@@ -32,12 +33,12 @@ python query.py
    again, uses tangent.cntl as the default control file to provide parameters
 
 python runquery.py
-   used to execute queries that combine text and math expressions. A control file 
+   used to execute queries that combine text and math expressions. A control file
    is required, and this file must contain parameters to connect to the text and
    math search engines. Execute without parameters for help
 
 search [db-directory]
-   script that runs the command below if no arguments are given. A directory 
+   script that runs the command below if no arguments are given. A directory
    containing index and query .tsv files may also be passed.
    Output is written to <dir>_results.tsv.
 
@@ -47,7 +48,7 @@ cat db-index/* | ./mathindex.exe > mathresults.tsv
     Repeated calls to index.py and query.py with the same documents will produce
     duplicates, so change the argument to cat to specify just which files are desired.]
 
-python3 reranking.py 
+python3 reranking.py
     Reranks initial search results, and produces .html results pages.
     Run the command without arguments for information on usage.
 
@@ -133,7 +134,7 @@ tangent/testing:    test data (documents) and test queries
 tangent/text:    routines to handle text queries
     porter.py
     text_engine_client.py
-    TextResult.py    
+    TextResult.py
 
 tangent/utility:    various support routines
     comp_query.py

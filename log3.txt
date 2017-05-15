@@ -1,0 +1,33 @@
+Ketika mencoba tangent terbaru (http://software.openthinklabs.com/2017/05/latexml-latex-to-xmlhtmlmathml-converter.html)
+
+tangent.0.3.1/tangent_code/tangent⟫ latexml --VERSION
+latexml (LaTeXML version 0.8.2; revision 2eee7cf6)
+
+
+latexml --preload=amsmath  --includestyles testing/test_data/matrix/1_3_matrix.tex --destination=/tmp/out.xml
+
+Output :
+processing started Mon May 15 17:18:49 2017
+
+(Digesting TeX 1_3_matrix...
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/eTeX.pool.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/pdfTeX.pool.ltxml... 0.01 sec) 0.15 sec)
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/amsbsy.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/amsopn.sty.ltxml... 0.01 sec) 0.06 sec)
+(Processing content /home/wildan/jobstuff/openthinklabs/eksperimen/tangent/tangent.0.3.1/tangent_code/tangent/testing/test_data/matrix/1_3_matrix.tex...
+(Loading /usr/local/share/perl/5.24.1/LaTeXML/Package/LaTeX.pool.ltxml... 0.18 sec) 0.20 sec) 0.43 sec)
+(Building...
+(Loading compiled schema /usr/local/share/perl/5.24.1/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.02 sec).
+Error:malformed:ltx:XMDual <ltx:XMDual> isn't allowed in <#Document>
+        EOF?
+        Currently in XMLDocument[94209667872768]
+        In Core::Document[@0x55aee64bb040] EOF?
+         <= Core::Definition::Constructor[\lx@ams... <= Whatsit[\lx@ams@matrix@,Core::KeyVals... <= Core::Document[@0x55aee64bb040] <= ...
+ 0.08 sec)
+(Rewriting... 0.00 sec)
+(Finalizing... 0.00 sec)
+Conversion complete: 1 error.
+processing finished Mon May 15 17:18:50 2017

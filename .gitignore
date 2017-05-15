@@ -1,0 +1,8 @@
+
+tangent_code/tangent/db-index/
+
+*.pyc
+
+*.exe
+
+*.tex~

@@ -1,0 +1,179 @@
+wildan@openthinklabs002:~/jobstuff/openthinklabs/eksperimen/tangent/tangent.0.3.1/tangent_code/tangent⟫ python3 index.py
+reading testing/testlist.txt
+There are 41 documents to index
+4 is done saving to database 31585
+
+
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+Error in converting LaTeX to MathML: \begin{Bmatrix}1 & 2 &3
+\end{Bmatrix}
+
+8 is done saving to database 31598
+Failed to process document testing/test_data/matrix/1_3_matrix.tex: b'POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.\nCompilation failed in require at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nCompilation failed in require at /usr/share/perl5/LaTeXML.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML.pm line 22.\nCompilation failed in require at /usr/bin/latexmlmath line 22.\nBEGIN failed--compilation aborted at /usr/bin/latexmlmath line 22.\n'
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+ to this:
+
+  BeautifulSoup(YOUR_MARKUP, "lxml")
+
+   markup_type=markup_type))
+ Error in converting LaTeX to MathML: \begin{pmatrix}
+ 1\\
+ 2\\
+ 3
+ \end{pmatrix}
+
+ Failed to process document testing/test_data/matrix/3_1_matrix.tex: b'POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.\nCompilation failed in require at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nCompilation failed in require at /usr/share/perl5/LaTeXML.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML.pm line 22.\nCompilation failed in require at /usr/bin/latexmlmath line 22.\nBEGIN failed--compilation aborted at /usr/bin/latexmlmath line 22.\n'
+ /usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+ The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+  BeautifulSoup(YOUR_MARKUP})
+
+ to this:
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+Error in converting LaTeX to MathML: \frac{x}{y}
+
+Failed to process document testing/test_data/other/frac.tex: b'POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.\nCompilation failed in require at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nCompilation failed in require at /usr/share/perl5/LaTeXML.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML.pm line 22.\nCompilation failed in require at /usr/bin/latexmlmath line 22.\nBEGIN failed--compilation aborted at /usr/bin/latexmlmath line 22.\n'
+5 is done saving to database 31596
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+Error in converting LaTeX to MathML: \begin{Bmatrix}1 & 2 \\ 3& 4
+\end{Bmatrix}
+
+Failed to process document testing/test_data/matrix/simple_matrix.tex: b'POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.\nCompilation failed in require at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nCompilation failed in require at /usr/share/perl5/LaTeXML.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML.pm line 22.\nCompilation failed in require at /usr/bin/latexmlmath line 22.\nBEGIN failed--compilation aborted at /usr/bin/latexmlmath line 22.\n'
+3 is done saving to database 31588
+1 is done saving to database 31582
+2 is done saving to database 31587
+0 is done saving to database 31583
+6 is done saving to database 31592
+7 is done saving to database 31590
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+ markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+BeautifulSoup(YOUR_MARKUP, "lxml")
+
+ markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+BeautifulSoup(YOUR_MARKUP, "lxml")
+
+ markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+BeautifulSoup(YOUR_MARKUP, "lxml")
+markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+BeautifulSoup(YOUR_MARKUP, "lxml")
+
+ markup_type=markup_type))
+/usr/local/lib/python3.5/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 196 of the file index.py. To get rid of this warning, change code that looks like this:
+
+BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+BeautifulSoup(YOUR_MARKUP, "lxml")
+
+ markup_type=markup_type))
+Done indexing collection testing/testlist.txt
+Total number of documents/queries processed: 41
+Total number of unique expressions per document involved: 644
+Total number of expression instances involved: 846
+Total number of keywords involved: 0
+No unrecognized tags found in expressions
+Problem files/queries:
+b'POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.\nCompilation failed in require at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Common/Config.pm line 22.\nCompilation failed in require at /usr/share/perl5/LaTeXML.pm line 22.\nBEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML.pm line 22.\nCompilation failed in require at /usr/bin/latexmlmath line 22.\nBEGIN failed--compilation aborted at /usr/bin/latexmlmath line 22.\n' :  {16, 11, 28, 7}
+Elapsed time 1.892029047012329

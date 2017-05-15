@@ -1,6 +1,6 @@
 """
     Tangent
-   Copyright (c) 2013, 2015 David Stalnaker, Richard Zanibbi, Nidhin Pattaniyil, 
+   Copyright (c) 2013, 2015 David Stalnaker, Richard Zanibbi, Nidhin Pattaniyil,
                   Andrew Kane, Frank Tompa, Kenny Davila Castellanos
 
     This file is part of Tangent.
@@ -88,7 +88,7 @@ def process_query_batch(args):
         stats.num_keywords += len(terms)
 
         math_index.search(fileid, query_num, trees, terms, topk)
-    
+
     math_index.closeDB(fileid)
     return (fileid,stats)
 
@@ -117,23 +117,23 @@ if __name__ == '__main__':
 
     ntcir_main_count = 1000  # main task require 1000 results returned
     ntcir_wiki_count = 100
-    
+
     if sys.stdout.encoding != 'utf8':
       sys.stdout = codecs.getwriter('utf8')(sys.stdout.buffer, 'strict')
     if sys.stderr.encoding != 'utf8':
       sys.stderr = codecs.getwriter('utf8')(sys.stderr.buffer, 'strict')
-      
+
     if (len(argv) > 2 or (len(argv) == 2 and argv[1] == 'help')):  # uses control file to control all parameters
         print_help_and_exit()
     else:
         start = time.time()
-        
+
         try:
             cntl = Control(argv[1]) if len(argv) == 2 else Control()
         except Exception as err:
             print("Error in reading <cntl-file>: " +str(err))
             print_help_and_exit()
-        
+
         db = cntl.read("database")
         if not db:
             print("<cntl-file> missing database")
@@ -166,9 +166,9 @@ if __name__ == '__main__':
                 print(qid,hit)
         else:
 
-                
+
             topk = ntcir_wiki_count if system == 'Wikipedia' else ntcir_main_count
-            
+
 
             with open(query_file, encoding='utf-8') as file:
                 parsed = BeautifulSoup(file)
@@ -194,7 +194,7 @@ if __name__ == '__main__':
                 combined_stats.problem_files[reason].add(filename)
 
             cntl.store("query_fileids",str(fileids))
-            
+
             print("Done preparing query batch for %s against %s" % (query_file, db))
             combined_stats.dump()
 

@@ -1,0 +1,31 @@
+>>dpkg -s latexml
+Package: latexml
+Status: install ok installed
+Priority: extra
+Section: tex
+Installed-Size: 7014
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.8.1-1
+Depends: perl, libparse-recdescent-perl, libxml2, libxml-libxml-perl, libxslt1.1, libxml-libxslt-perl, libuuid-tiny-perl, libarchive-zip-perl, libio-string-perl, libjson-xs-perl, libwww-perl, liburi-perl, libfile-which-perl, libimage-size-perl, imagemagick, perlmagick, texlive-latex-base
+Description: LaTeX to XML Converter
+ latexml is a program, written in Perl, that attempts to faithfully mimic
+ TeX's behaviour, but produces XML instead of dvi. The document model of
+ the target XML makes explicit the model implied by LaTeX.
+ .
+ The processing and model are both extensible; you can define the mapping
+ between TeX constructs and the XML fragments to be created. A postprocessor,
+ latexmlpost converts this XML into other formats such as HTML or XHTML,
+ with options to convert the math into MathML (currently only presentation)
+ or images.
+Original-Maintainer: Peter Ralph <petrel.harp@gmail.com>
+Homepage: http://dlmf.nist.gov/LaTeXML/
+
+Ketika mencoba convert .tex ke xml, terjadi error berikut :
+
+tangent.0.3.1/tangent_code/tangent⟫ latexml testing/test_data/matrix/1_3_matrix.tex
+POSIX class [:cntrl::] unknown in regex; marked by <-- HERE in m/([[:cntrl::] <-- HERE ])/ at /usr/share/perl5/LaTeXML/Common/Error.pm line 364.
+Compilation failed in require at /usr/share/perl5/LaTeXML/Core.pm line 18.
+BEGIN failed--compilation aborted at /usr/share/perl5/LaTeXML/Core.pm line 18.
+Compilation failed in require at /usr/bin/latexml line 22.
+BEGIN failed--compilation aborted at /usr/bin/latexml line 22.

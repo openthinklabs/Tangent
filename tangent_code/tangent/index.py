@@ -1,6 +1,6 @@
 """
     Tangent
-    Copyright (c) 2013, 2015 David Stalnaker, Richard Zanibbi, Nidhin Pattaniyil, 
+    Copyright (c) 2013, 2015 David Stalnaker, Richard Zanibbi, Nidhin Pattaniyil,
                   Andrew Kane, Frank Tompa, Kenny Davila Castellanos
 
     This file is part of Tangent.
@@ -132,7 +132,7 @@ if __name__ == '__main__':
       sys.stdout = codecs.getwriter('utf8')(sys.stdout.buffer, 'strict')
     if sys.stderr.encoding != 'utf8':
       sys.stderr = codecs.getwriter('utf8')(sys.stderr.buffer, 'strict')
-      
+
     if (len(argv) > 2 or (len(argv) == 2 and argv[1] == 'help')):  # uses control file to control all parameters
         print_help_and_exit()
     else:
@@ -142,7 +142,7 @@ if __name__ == '__main__':
         except Exception as err:
             print("Error in reading <cntl-file>: " +str(err))
             print_help_and_exit()
-        
+
         doc_id_mapping_path = cntl.read("doc_list")
         if not doc_id_mapping_path:
             print("<cntl-file> missing doc_list")
@@ -152,7 +152,7 @@ if __name__ == '__main__':
             print('Window values smaller than 1 not permitted -- using 1')
             window = 1
         chunk_size = cntl.read("chunk_size",num=True,default=200)
-                
+
         print("reading %s" % doc_id_mapping_path, flush=True)
         mappings = []
         filepos = []
@@ -171,7 +171,7 @@ if __name__ == '__main__':
                         del filepos[-1]
                     break
         cntl.store("file_skips",str(filepos))
-        
+
         print("There are " + str(num_docs) + " documents to index", flush=True)
         combined_stats = Stats()
 
@@ -186,7 +186,7 @@ if __name__ == '__main__':
             args = [(math_index, cntl, chunkid) for chunkid in list(range(len(filepos)))]
 
             fileids = set()
-            
+
 ##            for p in args:  # single-process execution, for debugging
 ##                fileid, stats = math_indexer_task(p)
 ##                fileids.add(fileid)
@@ -200,7 +200,7 @@ if __name__ == '__main__':
             for fileid in fileids:
                 math_index.closeDB(fileid, mode="i")
             cntl.store("index_fileids",str(fileids))
-            
+
         print("Done indexing collection %s" % (doc_id_mapping_path))
         combined_stats.dump()
 
